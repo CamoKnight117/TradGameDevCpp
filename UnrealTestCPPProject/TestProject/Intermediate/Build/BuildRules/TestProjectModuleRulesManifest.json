@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\UnrealTestCPPProject\\TestProject\\Source\\TestProject\\TestProject.Build.cs",
+		"D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\UnrealTestCPPProject\\TestProject\\Source\\TestProject.Target.cs",
+		"D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\UnrealTestCPPProject\\TestProject\\Source\\TestProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
