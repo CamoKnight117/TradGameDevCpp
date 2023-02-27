@@ -2381,6 +2381,18 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/NinjaCharacter/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/NinjaCharacter/Binaries/Win64/UnrealEditor-NinjaCharacter.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/NinjaCharacter/Binaries/Win64/UnrealEditor-NinjaCharacter.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Media/AndroidMedia/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -23260,6 +23272,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Importers/AlembicImporter/AlembicImporter.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/NinjaCharacter/NinjaCharacter.uplugin",
 			"Type": "UFS"
 		},
 		{

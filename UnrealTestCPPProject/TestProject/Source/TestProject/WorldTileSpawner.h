@@ -26,8 +26,5 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<AActor>ActorToSpawn;
-
-	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActorCppParent>tileBlueprintToSpawn;
 };

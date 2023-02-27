@@ -1,4 +1,5 @@
 #include "WorldTileSpawner.h"
+#include "Components/StaticMeshComponent.h"
 
 
 // Sets default values
@@ -14,14 +15,19 @@ void AWorldTileSpawner::BeginPlay()
 {
 	Super::BeginPlay();	
 	
-	AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(ActorToSpawn, GetActorTransform());
+	AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(tileBlueprintToSpawn, GetActorTransform());
 	FString baseString = "/Game/MotherEarth/Tiles/seperate_tile_polySurface1_pPlatonic1.seperate_tile_polySurface1_pPlatonic";
 		//"StaticMesh'/Game/MotherEarth/Tiles/seperate_tile_polySurface1_pPlatonic1.seperate_tile_polySurface1_pPlatonic";
 	int currentMeshNum = 1;
 	FString currentFName = baseString + FString::FromInt(currentMeshNum);
 	const TCHAR* tcharFileName = *currentFName;
 	UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, tcharFileName, NULL, LOAD_None, NULL);
-	newActor->editableStaticMesh->SetStaticMesh(meshToUse);
+	if (meshToUse)
+	{
+		//newActor->editableStaticMesh->SetupAttachment(RootComponent);
+		//newActor->editableStaticMesh->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+		//newActor->editableStaticMesh->SetStaticMesh(meshToUse);
+	}
 }
 
 // Called every frame

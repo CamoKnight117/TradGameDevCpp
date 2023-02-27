@@ -15,7 +15,6 @@ AActorCppParent::AActorCppParent()
 void AActorCppParent::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

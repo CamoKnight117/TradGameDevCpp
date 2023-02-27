@@ -14,7 +14,6 @@ void EmptyLinkFunctionForGeneratedCodeWorldTileSpawner() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_TestProject();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	TESTPROJECT_API UClass* Z_Construct_UClass_AActorCppParent_NoRegister();
 // End Cross Module References
 	void AWorldTileSpawner::StaticRegisterNativesAWorldTileSpawner()
@@ -31,10 +30,6 @@ void EmptyLinkFunctionForGeneratedCodeWorldTileSpawner() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_ActorToSpawn_MetaData[];
-#endif
-		static const UECodeGen_Private::FClassPropertyParams NewProp_ActorToSpawn;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_tileBlueprintToSpawn_MetaData[];
 #endif
@@ -54,13 +49,6 @@ void EmptyLinkFunctionForGeneratedCodeWorldTileSpawner() {}
 	};
 #endif
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_ActorToSpawn_MetaData[] = {
-		{ "Category", "WorldTileSpawner" },
-		{ "ModuleRelativePath", "WorldTileSpawner.h" },
-	};
-#endif
-	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_ActorToSpawn = { "ActorToSpawn", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorldTileSpawner, ActorToSpawn), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_ActorToSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_ActorToSpawn_MetaData)) };
-#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_tileBlueprintToSpawn_MetaData[] = {
 		{ "Category", "WorldTileSpawner" },
 		{ "ModuleRelativePath", "WorldTileSpawner.h" },
@@ -68,7 +56,6 @@ void EmptyLinkFunctionForGeneratedCodeWorldTileSpawner() {}
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_tileBlueprintToSpawn = { "tileBlueprintToSpawn", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWorldTileSpawner, tileBlueprintToSpawn), Z_Construct_UClass_AActorCppParent_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_tileBlueprintToSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_tileBlueprintToSpawn_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AWorldTileSpawner_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_ActorToSpawn,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWorldTileSpawner_Statics::NewProp_tileBlueprintToSpawn,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AWorldTileSpawner_Statics::StaticCppClassTypeInfo = {
@@ -107,9 +94,9 @@ void EmptyLinkFunctionForGeneratedCodeWorldTileSpawner() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_WorldTileSpawner_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AWorldTileSpawner, AWorldTileSpawner::StaticClass, TEXT("AWorldTileSpawner"), &Z_Registration_Info_UClass_AWorldTileSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWorldTileSpawner), 2329780315U) },
+		{ Z_Construct_UClass_AWorldTileSpawner, AWorldTileSpawner::StaticClass, TEXT("AWorldTileSpawner"), &Z_Registration_Info_UClass_AWorldTileSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWorldTileSpawner), 388382070U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_WorldTileSpawner_h_3016818859(TEXT("/Script/TestProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_WorldTileSpawner_h_1632331663(TEXT("/Script/TestProject"),
 		Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_WorldTileSpawner_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_WorldTileSpawner_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -1,4 +1,4 @@
-D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Source\TestProject\ActorCppParent.cpp
+D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Source\TestProject\ActorCppParent.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -251,8 +251,8 @@ D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProje
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Inc\TestProject
-/I D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Source
+/I D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Inc\TestProject
+/I D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Source
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -273,12 +273,12 @@ D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProje
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\Definitions.TestProject.h"
-/Yu"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.cpp.lc.obj"
-/sourceDependencies"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.cpp.lc.json"
+/FI"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\Definitions.TestProject.h"
+/Yu"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.cpp.lc.obj"
+/sourceDependencies"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.cpp.lc.json"
 /Zc:inline
 /nologo
 /Oi
