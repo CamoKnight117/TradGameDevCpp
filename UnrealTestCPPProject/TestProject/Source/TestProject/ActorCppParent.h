@@ -18,6 +18,12 @@ public:
 	UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	UStaticMesh* runtimeSetMesh;
 
+	UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	bool canGrowTrees;
+
+	UPROPERTY(BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	bool canGrowGrass;
+
 
 protected:
 	// Called when the game starts or when spawned

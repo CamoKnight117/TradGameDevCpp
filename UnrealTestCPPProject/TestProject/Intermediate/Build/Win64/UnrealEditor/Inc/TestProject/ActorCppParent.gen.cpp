@@ -33,6 +33,16 @@ void EmptyLinkFunctionForGeneratedCodeActorCppParent() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_runtimeSetMesh_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_runtimeSetMesh;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_canGrowTrees_MetaData[];
+#endif
+		static void NewProp_canGrowTrees_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_canGrowTrees;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_canGrowGrass_MetaData[];
+#endif
+		static void NewProp_canGrowGrass_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_canGrowGrass;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -55,8 +65,34 @@ void EmptyLinkFunctionForGeneratedCodeActorCppParent() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh = { "runtimeSetMesh", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActorCppParent, runtimeSetMesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowTrees_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ActorCppParent" },
+		{ "ModuleRelativePath", "ActorCppParent.h" },
+	};
+#endif
+	void Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowTrees_SetBit(void* Obj)
+	{
+		((AActorCppParent*)Obj)->canGrowTrees = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowTrees = { "canGrowTrees", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AActorCppParent), &Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowTrees_SetBit, METADATA_PARAMS(Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowTrees_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowTrees_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowGrass_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ActorCppParent" },
+		{ "ModuleRelativePath", "ActorCppParent.h" },
+	};
+#endif
+	void Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowGrass_SetBit(void* Obj)
+	{
+		((AActorCppParent*)Obj)->canGrowGrass = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowGrass = { "canGrowGrass", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AActorCppParent), &Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowGrass_SetBit, METADATA_PARAMS(Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowGrass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowGrass_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AActorCppParent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowTrees,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorCppParent_Statics::NewProp_canGrowGrass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AActorCppParent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AActorCppParent>::IsAbstract,
@@ -94,9 +130,9 @@ void EmptyLinkFunctionForGeneratedCodeActorCppParent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AActorCppParent, AActorCppParent::StaticClass, TEXT("AActorCppParent"), &Z_Registration_Info_UClass_AActorCppParent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AActorCppParent), 1958167708U) },
+		{ Z_Construct_UClass_AActorCppParent, AActorCppParent::StaticClass, TEXT("AActorCppParent"), &Z_Registration_Info_UClass_AActorCppParent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AActorCppParent), 3736069860U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_995423017(TEXT("/Script/TestProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_3535586824(TEXT("/Script/TestProject"),
 		Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

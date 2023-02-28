@@ -18,6 +18,8 @@ void AWorldTileSpawner::BeginPlay()
 	for (int i = 1; i < totalTiles; i++)
 	{
 		AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(tileBlueprintToSpawn, GetActorTransform());
+		newActor->canGrowGrass = true;
+		newActor->canGrowTrees = true;
 		//Reference string format: StaticMesh'/Game/MotherEarth/Tiles/tile__1_.tile__1_'
 		FString baseString = "StaticMesh'/Game/MotherEarth/Tiles/tile__";	
 		FString appendedString = "_.tile__";

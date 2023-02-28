@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\Repo\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject\\TestProject.Build.cs",
-		"D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\Repo\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject.Target.cs",
-		"D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\Repo\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProjectEditor.Target.cs"
+		"C:\\Users\\u1070175\\Documents\\GitHub\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject\\TestProject.Build.cs",
+		"C:\\Users\\u1070175\\Documents\\GitHub\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject.Target.cs",
+		"C:\\Users\\u1070175\\Documents\\GitHub\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }
