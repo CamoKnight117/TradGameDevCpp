@@ -1,26 +1,4 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\squis\AppData\Local\UnrealBuildTool\Log.txt
-  Building TestProjectEditor...
-  Using Visual Studio 2019 14.29.30148 toolchain (D:\Program Files (x86)\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from TestProject unity file: ActorCppParent.cpp, TestProject.cpp, TestProjectGameModeBase.cpp, WorldTileSpawner.cpp
-  Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
-    Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 5.56 GB available: limiting max parallel actions to 3
-  Building 13 actions with 3 processes...
-  [1/13] Resource Default.rc2
-  [2/13] Compile SharedPCH.Engine.ShadowErrors.cpp
-  [3/13] Compile TestProject.cpp
-  [4/13] Compile ActorCppParent.cpp
-  [5/13] Compile TestProjectGameModeBase.cpp
-  [6/13] Compile WorldTileSpawner.gen.cpp
-  [7/13] Compile TestProjectGameModeBase.gen.cpp
-  [8/13] Compile ActorCppParent.gen.cpp
-  [9/13] Compile TestProject.init.gen.cpp
-  [10/13] Compile WorldTileSpawner.cpp
-  [11/13] Link UnrealEditor-TestProject.lib
-     Creating library D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.lib and object D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.exp
-  [12/13] Link UnrealEditor-TestProject.dll
-     Creating library D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.suppressed.lib and object D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.suppressed.exp
-  [13/13] WriteMetadata TestProjectEditor.target
-  Total time in Parallel executor: 43.07 seconds
-  Total execution time: 46.67 seconds
+UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
+D:\Program Files (x86)\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command ""D:\Program Files\EpicGames\UE_5.0\Engine\Build\BatchFiles\Build.bat" TestProjectEditor Win64 Development -Project="D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\TestProject.uproject" -WaitMutex -FromMsBuild" exited with code 6.

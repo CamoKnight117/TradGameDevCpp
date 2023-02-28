@@ -14,19 +14,32 @@ AWorldTileSpawner::AWorldTileSpawner()
 void AWorldTileSpawner::BeginPlay()
 {
 	Super::BeginPlay();	
-	
-	AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(tileBlueprintToSpawn, GetActorTransform());
-	FString baseString = "/Game/MotherEarth/Tiles/seperate_tile_polySurface1_pPlatonic1.seperate_tile_polySurface1_pPlatonic";
-		//"StaticMesh'/Game/MotherEarth/Tiles/seperate_tile_polySurface1_pPlatonic1.seperate_tile_polySurface1_pPlatonic";
-	int currentMeshNum = 1;
-	FString currentFName = baseString + FString::FromInt(currentMeshNum);
-	const TCHAR* tcharFileName = *currentFName;
-	UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, tcharFileName, NULL, LOAD_None, NULL);
-	if (meshToUse)
+	int totalTiles = 2412;
+	for (int i = 1; i < totalTiles; i++)
 	{
-		//newActor->editableStaticMesh->SetupAttachment(RootComponent);
-		//newActor->editableStaticMesh->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
-		//newActor->editableStaticMesh->SetStaticMesh(meshToUse);
+		AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(tileBlueprintToSpawn, GetActorTransform());
+		//Reference string format: StaticMesh'/Game/MotherEarth/Tiles/tile__1_.tile__1_'
+		FString baseString = "StaticMesh'/Game/MotherEarth/Tiles/tile__";	
+		FString appendedString = "_.tile__";
+		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i) + "_'";
+
+		UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, *currentFName, NULL, LOAD_None, NULL);
+		if (meshToUse != nullptr)
+		{
+			//UE_LOG(LogTemp, Warning, TEXT("Mesh non null"));
+			newActor->runtimeSetMesh = meshToUse;
+			if ((newActor->runtimeSetMesh) == nullptr)
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Actor mesh is nullptr"));
+			}
+			else
+			{	
+			}
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Error loading mesh"));
+		}
 	}
 }
 

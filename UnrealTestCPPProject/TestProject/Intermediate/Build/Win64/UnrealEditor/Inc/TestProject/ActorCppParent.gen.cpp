@@ -13,7 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeActorCppParent() {}
 	TESTPROJECT_API UClass* Z_Construct_UClass_AActorCppParent();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_TestProject();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
 // End Cross Module References
 	void AActorCppParent::StaticRegisterNativesAActorCppParent()
 	{
@@ -30,9 +30,9 @@ void EmptyLinkFunctionForGeneratedCodeActorCppParent() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_editableStaticMesh_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_runtimeSetMesh_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_editableStaticMesh;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_runtimeSetMesh;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -48,15 +48,15 @@ void EmptyLinkFunctionForGeneratedCodeActorCppParent() {}
 	};
 #endif
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActorCppParent_Statics::NewProp_editableStaticMesh_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
 		{ "Category", "ActorCppParent" },
-		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "ActorCppParent.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AActorCppParent_Statics::NewProp_editableStaticMesh = { "editableStaticMesh", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActorCppParent, editableStaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AActorCppParent_Statics::NewProp_editableStaticMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActorCppParent_Statics::NewProp_editableStaticMesh_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh = { "runtimeSetMesh", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActorCppParent, runtimeSetMesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AActorCppParent_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorCppParent_Statics::NewProp_editableStaticMesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorCppParent_Statics::NewProp_runtimeSetMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AActorCppParent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AActorCppParent>::IsAbstract,
@@ -94,9 +94,9 @@ void EmptyLinkFunctionForGeneratedCodeActorCppParent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AActorCppParent, AActorCppParent::StaticClass, TEXT("AActorCppParent"), &Z_Registration_Info_UClass_AActorCppParent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AActorCppParent), 1677000261U) },
+		{ Z_Construct_UClass_AActorCppParent, AActorCppParent::StaticClass, TEXT("AActorCppParent"), &Z_Registration_Info_UClass_AActorCppParent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AActorCppParent), 1958167708U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_1666684335(TEXT("/Script/TestProject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_995423017(TEXT("/Script/TestProject"),
 		Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestProject_Source_TestProject_ActorCppParent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
