@@ -14,7 +14,7 @@ AWorldTileSpawner::AWorldTileSpawner()
 void AWorldTileSpawner::BeginPlay()
 {
 	Super::BeginPlay();	
-	int totalTiles = 2412;
+	int totalTiles = 2419;
 	for (int i = 1; i < totalTiles; i++)
 	{
 		AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(tileBlueprintToSpawn, GetActorTransform());
@@ -24,6 +24,7 @@ void AWorldTileSpawner::BeginPlay()
 		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i) + "_'";
 
 		UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, *currentFName, NULL, LOAD_None, NULL);
+		meshToUse->ComplexCollisionMesh = meshToUse;
 		if (meshToUse != nullptr)
 		{
 			//UE_LOG(LogTemp, Warning, TEXT("Mesh non null"));
