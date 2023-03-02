@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\u1354966\\documents\\github\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\testproject.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\u1354966\\documents\\github\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\testprojecteditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\u1354966\\documents\\github\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\debuggame\\testproject\\definitions.testproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

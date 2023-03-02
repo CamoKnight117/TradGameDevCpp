@@ -63,5 +63,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=TestProject
-/fo "C:\Users\u1070175\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\Default.rc2.res"
+/fo "C:\Users\u1354966\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
