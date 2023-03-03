@@ -1,30 +1,26 @@
 ﻿  Using bundled DotNet SDK
-  Log file: C:\Users\u1354966\AppData\Local\UnrealBuildTool\Log.txt
-  Creating makefile for TestProjectEditor (no existing makefile)
-  Parsing headers for TestProjectEditor
-    Running UnrealHeaderTool "C:\Users\u1354966\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\TestProject.uproject" "C:\Users\u1354966\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\DebugGame\TestProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\u1354966\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for TestProjectEditor in 2.2556802 seconds
+  Log file: C:\Users\squis\AppData\Local\UnrealBuildTool\Log.txt
   Building TestProjectEditor...
-  Using Visual Studio 2022 14.29.30146 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.29.30133) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Using Visual Studio 2019 14.29.30148 toolchain (D:\Program Files (x86)\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Adaptive Build] Excluded from TestProject unity file: ActorCppParent.cpp, TestProject.cpp, TestProjectGameModeBase.cpp, WorldTileSpawner.cpp
-  Determining max actions to execute in parallel (12 physical cores, 20 logical cores)
-    Executing up to 12 processes, one per physical core
-    Requested 1.5 GB free memory per action, 4.28 GB available: limiting max parallel actions to 2
-  Building 13 actions with 2 processes...
+  Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
+    Executing up to 8 processes, one per physical core
+    Requested 1.5 GB free memory per action, 5.87 GB available: limiting max parallel actions to 3
+  Building 13 actions with 3 processes...
   [1/13] Resource Default.rc2
-  [2/13] Compile SharedPCH.Engine.NonOptimized.ShadowErrors.cpp
-  [3/13] Compile TestProject.cpp
-  [4/13] Compile ActorCppParent.gen.cpp
-  [5/13] Compile WorldTileSpawner.cpp
-  [6/13] Compile TestProjectGameModeBase.gen.cpp
-  [7/13] Compile TestProjectGameModeBase.cpp
-  [8/13] Compile TestProject.init.gen.cpp
-  [9/13] Compile WorldTileSpawner.gen.cpp
-  [10/13] Compile ActorCppParent.cpp
-  [11/13] Link UnrealEditor-TestProject-Win64-DebugGame.lib
-     Creating library C:\Users\u1354966\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\DebugGame\TestProject\UnrealEditor-TestProject-Win64-DebugGame.lib and object C:\Users\u1354966\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\DebugGame\TestProject\UnrealEditor-TestProject-Win64-DebugGame.exp
-  [12/13] Link UnrealEditor-TestProject-Win64-DebugGame.dll
-     Creating library C:\Users\u1354966\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\DebugGame\TestProject\UnrealEditor-TestProject-Win64-DebugGame.suppressed.lib and object C:\Users\u1354966\Documents\GitHub\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\DebugGame\TestProject\UnrealEditor-TestProject-Win64-DebugGame.suppressed.exp
-  [13/13] WriteMetadata TestProjectEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 142.99 seconds
-  Total execution time: 197.93 seconds
+  [2/13] Compile SharedPCH.Engine.ShadowErrors.cpp
+  [3/13] Compile TestProject.init.gen.cpp
+  [4/13] Compile TestProject.cpp
+  [5/13] Compile TestProjectGameModeBase.gen.cpp
+  [6/13] Compile ActorCppParent.gen.cpp
+  [7/13] Compile WorldTileSpawner.cpp
+  [8/13] Compile TestProjectGameModeBase.cpp
+  [9/13] Compile ActorCppParent.cpp
+  [10/13] Compile WorldTileSpawner.gen.cpp
+  [11/13] Link UnrealEditor-TestProject.lib
+     Creating library D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.lib and object D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.exp
+  [12/13] Link UnrealEditor-TestProject.dll
+     Creating library D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.suppressed.lib and object D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.suppressed.exp
+  [13/13] WriteMetadata TestProjectEditor.target
+  Total time in Parallel executor: 58.33 seconds
+  Total execution time: 59.05 seconds
