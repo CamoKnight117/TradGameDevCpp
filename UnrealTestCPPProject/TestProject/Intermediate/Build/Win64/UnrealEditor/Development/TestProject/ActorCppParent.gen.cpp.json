@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\github_file\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\actorcppparent.gen.cpp",
+        "Source": "d:\\squis\\documents\\schoolstuff\\spring2023\\gamedev\\repo\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\actorcppparent.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\github_file\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\testprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "d:\\squis\\documents\\schoolstuff\\spring2023\\gamedev\\repo\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\testprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "d:\\github_file\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
-            "d:\\github_file\\tradgamedevcpp\\unrealtestcppproject\\testproject\\source\\testproject\\actorcppparent.h",
-            "d:\\github_file\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\actorcppparent.generated.h"
+            "d:\\squis\\documents\\schoolstuff\\spring2023\\gamedev\\repo\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\development\\testproject\\definitions.testproject.h",
+            "d:\\squis\\documents\\schoolstuff\\spring2023\\gamedev\\repo\\tradgamedevcpp\\unrealtestcppproject\\testproject\\source\\testproject\\actorcppparent.h",
+            "d:\\squis\\documents\\schoolstuff\\spring2023\\gamedev\\repo\\tradgamedevcpp\\unrealtestcppproject\\testproject\\intermediate\\build\\win64\\unrealeditor\\inc\\testproject\\actorcppparent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

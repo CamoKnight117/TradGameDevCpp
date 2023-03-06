@@ -27,4 +27,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActorCppParent>tileBlueprintToSpawn;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActorCppParent>waterBlueprintToSpawn;
 };
