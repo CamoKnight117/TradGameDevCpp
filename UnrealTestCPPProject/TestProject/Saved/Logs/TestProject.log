@@ -775,3 +775,9 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.07-22.30.11:222][573]LogSlate: Took 0.000528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2023.03.07-22.30.16:800][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
 [2023.03.07-22.31.52:724][319]LogDerivedDataCache: C:/Users/benre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.208 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.07-22.33.16:450][568]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/MotherEarth/Model_BP/BP_regionAssigner.
+[2023.03.07-22.33.19:353][577]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/MotherEarth/WorldWaterTileChild.
+[2023.03.07-22.33.21:050][582]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/MotherEarth/BP_TileGenerator.
+[2023.03.07-22.34.18:958][755]LogDirectoryWatcher: Display: A directory notification failed for '../../../../../../Users/benre/OneDrive/Documents/GitHub/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2023.03.07-22.34.18:958][755]LogDirectoryWatcher: Display: A directory notification failed for '../../../../../../Users/benre/OneDrive/Documents/GitHub/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2023.03.07-22.34.18:958][755]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/benre/OneDrive/Documents/GitHub/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/' because it was empty or there was a buffer overflow. Attemping another request...
