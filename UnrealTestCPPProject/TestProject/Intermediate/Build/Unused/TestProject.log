@@ -5,22 +5,15 @@
   [Adaptive Build] Excluded from TestProject unity file: ActorCppParent.cpp, TestProject.cpp, TestProjectGameModeBase.cpp, WorldTileSpawner.cpp
   Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
     Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 5.87 GB available: limiting max parallel actions to 3
-  Building 13 actions with 3 processes...
-  [1/13] Resource Default.rc2
-  [2/13] Compile SharedPCH.Engine.ShadowErrors.cpp
-  [3/13] Compile TestProject.init.gen.cpp
-  [4/13] Compile TestProject.cpp
-  [5/13] Compile TestProjectGameModeBase.gen.cpp
-  [6/13] Compile ActorCppParent.gen.cpp
-  [7/13] Compile WorldTileSpawner.cpp
-  [8/13] Compile TestProjectGameModeBase.cpp
-  [9/13] Compile ActorCppParent.cpp
-  [10/13] Compile WorldTileSpawner.gen.cpp
-  [11/13] Link UnrealEditor-TestProject.lib
+    Requested 1.5 GB free memory per action, 6.35 GB available: limiting max parallel actions to 4
+  Building 6 actions with 4 processes...
+  [1/6] Compile WorldTileSpawner.gen.cpp
+  [2/6] Compile TestProject.init.gen.cpp
+  [3/6] Compile WorldTileSpawner.cpp
+  [4/6] Link UnrealEditor-TestProject.lib
      Creating library D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.lib and object D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.exp
-  [12/13] Link UnrealEditor-TestProject.dll
+  [5/6] Link UnrealEditor-TestProject.dll
      Creating library D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.suppressed.lib and object D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\UnrealEditor-TestProject.suppressed.exp
-  [13/13] WriteMetadata TestProjectEditor.target
-  Total time in Parallel executor: 58.33 seconds
-  Total execution time: 59.05 seconds
+  [6/6] WriteMetadata TestProjectEditor.target
+  Total time in Parallel executor: 181.13 seconds
+  Total execution time: 182.32 seconds

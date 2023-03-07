@@ -71,3 +71,32 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+UnrealTestCPPProject/TestProject/Intermediate/Build/BuildRules/TestProjectModuleRulesManifest.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/BuildRules/TestProjectModuleRulesManifest.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/TestProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/TestProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/TestProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj.response
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/TestProjectEditor/Development/Makefile.bin
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/TestProjectEditor/Development/TestProjectEditor.uhtmanifest
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/TestProjectEditor/Development/TestProjectEditor.uhtpath
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/ActorCppParent.cpp.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/ActorCppParent.cpp.obj.response
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/ActorCppParent.gen.cpp.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/ActorCppParent.gen.cpp.obj.response
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/Default.rc2.res.response
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProject.cpp.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProject.cpp.obj.response
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProject.init.gen.cpp.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProject.init.gen.cpp.lc.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProject.init.gen.cpp.obj.response
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProjectGameModeBase.cpp.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProjectGameModeBase.cpp.obj.response
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/TestProjectGameModeBase.gen.cpp.json
+*.response
+*.json
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/UnrealEditor-TestProject.exp
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Development/TestProject/UnrealEditor-TestProject.suppressed.exp
+*.exp
+UnrealTestCPPProject/TestProject/Intermediate/Build/Win64/UnrealEditor/Inc/TestProject/Timestamp
+*.bin
+UnrealTestCPPProject/TestProject/Saved/AutoScreenshot.png
