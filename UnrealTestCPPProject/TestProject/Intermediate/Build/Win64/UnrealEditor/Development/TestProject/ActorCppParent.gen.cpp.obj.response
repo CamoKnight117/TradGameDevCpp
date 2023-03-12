@@ -1,4 +1,4 @@
-D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Inc\TestProject\ActorCppParent.gen.cpp
+C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Inc\TestProject\ActorCppParent.gen.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -251,8 +251,8 @@ D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTest
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Inc\TestProject
-/I D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Source
+/I C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Inc\TestProject
+/I C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Source
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -267,18 +267,18 @@ D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTest
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "D:\Program Files (x86)\Visual Studio\IDE\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\Definitions.TestProject.h"
-/Yu"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.gen.cpp.obj"
-/sourceDependencies D:\squis\Documents\SchoolStuff\Spring2023\GameDev\Repo\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.gen.cpp.json
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/FI"C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\Definitions.TestProject.h"
+/Yu"C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.gen.cpp.obj"
+/sourceDependencies C:\Users\86135\Desktop\Storage\3710\TradGameDevCpp\UnrealTestCPPProject\TestProject\Intermediate\Build\Win64\UnrealEditor\Development\TestProject\ActorCppParent.gen.cpp.json
 /Zc:inline
 /nologo
 /Oi

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TestProject",
-			"Path": "D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\Repo\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject.Target.cs",
+			"Path": "C:\\Users\\86135\\Desktop\\Storage\\3710\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TestProjectEditor",
-			"Path": "D:\\squis\\Documents\\SchoolStuff\\Spring2023\\GameDev\\Repo\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProjectEditor.Target.cs",
+			"Path": "C:\\Users\\86135\\Desktop\\Storage\\3710\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
