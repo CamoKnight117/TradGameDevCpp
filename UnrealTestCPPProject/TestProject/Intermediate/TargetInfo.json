@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TestProject",
-			"Path": "C:\\Users\\86135\\Desktop\\Storage\\3710\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject.Target.cs",
+			"Path": "C:\\Users\\u1070175\\Documents\\GitHub\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProject.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TestProjectEditor",
-			"Path": "C:\\Users\\86135\\Desktop\\Storage\\3710\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProjectEditor.Target.cs",
+			"Path": "C:\\Users\\u1070175\\Documents\\GitHub\\TradGameDevCpp\\UnrealTestCPPProject\\TestProject\\Source\\TestProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
