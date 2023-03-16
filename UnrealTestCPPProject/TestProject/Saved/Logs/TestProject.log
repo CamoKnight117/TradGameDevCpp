@@ -10315,3 +10315,176 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.16-16.16.11:388][861]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
 [2023.03.16-16.16.11:488][862]LogPlayLevel: Display: Destroying online subsystem :Context_53
 [2023.03.16-16.16.11:546][862]LogViewport: Scene viewport resized to 451x297, mode Windowed.
+[2023.03.16-16.17.20:547][759]LogSlate: Window 'Pick a starting point for your emitter' being destroyed
+[2023.03.16-16.17.20:561][759]LogContentBrowser: Deferred new asset file creation: NewNiagaraEmitter
+[2023.03.16-16.17.20:573][759]LogContentBrowser: Creating deferred item: NewNiagaraEmitter
+[2023.03.16-16.17.20:593][760]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraEmitter).
+[2023.03.16-16.17.22:460][871]LogContentBrowser: Attempting asset rename: NewNiagaraEmitter -> NewNiagaraEmitter
+[2023.03.16-16.17.22:481][871]LogContentBrowser: End creating deferred item NewNiagaraEmitter
+[2023.03.16-16.17.23:556][935]LogAssetEditorSubsystem: Opening Asset editor for NiagaraEmitter /Game/MotherEarth/ParticleFX/NewNiagaraEmitter.NewNiagaraEmitter
+[2023.03.16-16.17.23:785][935]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.17.23:799][935]LogNiagara: Compiling System NiagaraSystem /Engine/Transient.NiagaraSystem_1 took 0.242343 sec, no shader worker used.
+[2023.03.16-16.17.23:813][935]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.17.24:197][935]LogViewport: Scene viewport resized to 355x678, mode Windowed.
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: ================================================
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Total job queries 30, among them cache hits 0 (0.00%)
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Tracking 27 distinct input hashes that result in 18 distinct outputs (66.67%)
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: RAM used: 0.29 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Jobs assigned 30, completed 27 (90.00%)
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Average time worker was idle: 46.98 s
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.12 s
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 1.04 s
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Job life time (pending + execution): average 0.56 s, max 1.10
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.13 s
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.15 jobs/batch
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Average processing rate: 3.79 jobs/sec
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Effective parallelization: 0.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   27 times, average 0.16 sec, max 0.39 sec, min 0.05 sec)
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   27 times, average 0.16 sec, max 0.39 sec, min 0.05 sec)
+[2023.03.16-16.17.24:621][952]LogShaderCompilers: Display: ================================================
+[2023.03.16-16.17.24:989][977]LogNiagara: Compiling System NiagaraSystem /Engine/Transient.NiagaraSystem_1 took 1.098377 sec (time since issued), 2.779196 sec (combined shader worker time).
+[2023.03.16-16.17.25:112][984]217528_NiagaraSystem_1_MessageLog: System successfully compiled.
+[2023.03.16-16.17.38:929][374]217528_NiagaraSystem_1_MessageLog: System compile status unknown.
+[2023.03.16-16.17.39:824][445]LogNiagara: Compiling System NiagaraSystem /Engine/Transient.NiagaraSystem_1 took 1.178774 sec (time since issued), 1.525639 sec (combined shader worker time).
+[2023.03.16-16.17.40:935][550]217528_NiagaraSystem_1_MessageLog: System successfully compiled.
+[2023.03.16-16.17.44:104][926]LogSlate: Window 'Color Picker' being destroyed
+[2023.03.16-16.18.07:941][518]LogNiagaraEditor: Saving and Compiling NiagaraEmitter NewNiagaraEmitter
+[2023.03.16-16.18.08:064][518]LogSavePackage: Moving output files for package: /Game/MotherEarth/ParticleFX/NewNiagaraEmitter
+[2023.03.16-16.18.08:064][518]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/NewNiagaraEmitter4C7CBD6545A1398DF5B68BBA9DB3EDD2.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/ParticleFX/NewNiagaraEmitter.uasset'
+[2023.03.16-16.18.08:091][518]AssetCheck: New page: Asset Save: NewNiagaraEmitter
+[2023.03.16-16.18.08:091][518]LogContentValidation: Display: Validating NiagaraEmitter /Game/MotherEarth/ParticleFX/NewNiagaraEmitter.NewNiagaraEmitter
+[2023.03.16-16.18.09:591][687]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.18.09:591][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.18.09:606][687]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.18.09:606][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.18.09:746][687]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.03.16-16.18.11:550][894]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.18.11:550][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.18.18:274][158]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.03.16-16.18.18:284][158]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2023.03.16-16.18.18:295][158]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2023.03.16-16.18.18:310][159]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2023.03.16-16.18.27:755][813]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> GreenFieldSystem
+[2023.03.16-16.18.27:758][813]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2023.03.16-16.18.27:761][813]LogNiagara: Compiling System NiagaraSystem /Game/MotherEarth/ParticleFX/GreenFieldSystem.GreenFieldSystem took 0.005371 sec, no shader worker used.
+[2023.03.16-16.18.27:763][813]LogNiagara: Compiling System NiagaraSystem /Game/MotherEarth/ParticleFX/GreenFieldSystem.GreenFieldSystem took 0.005733 sec, no shader worker used.
+[2023.03.16-16.18.29:441][893]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.18.29:441][893]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.18.38:166][492]LogContentBrowser: Attempting asset rename: NewNiagaraEmitter -> NE_greenField
+[2023.03.16-16.18.38:912][492]LogSavePackage: Moving output files for package: /Game/MotherEarth/ParticleFX/NE_greenField
+[2023.03.16-16.18.38:912][492]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/NE_greenField7323EED946E490BD0705549604737080.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/ParticleFX/NE_greenField.uasset'
+[2023.03.16-16.18.39:026][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.16-16.18.39:110][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.03.16-16.18.39:187][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.03.16-16.18.39:205][492]AssetCheck: New page: Asset Save: NE_greenField
+[2023.03.16-16.18.39:205][492]LogContentValidation: Display: Validating NiagaraEmitter /Game/MotherEarth/ParticleFX/NE_greenField.NE_greenField
+[2023.03.16-16.18.42:421][656]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.18.42:421][656]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.18.47:966][ 27]LogContentBrowser: Attempting asset rename: GreenFieldSystem -> NE_GreenFieldSystem
+[2023.03.16-16.18.48:058][ 27]LogSavePackage: Moving output files for package: /Game/MotherEarth/ParticleFX/NE_GreenFieldSystem
+[2023.03.16-16.18.48:058][ 27]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/NE_GreenFieldSystemB95AECD8451C3DD6F4C5F79B40137574.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/ParticleFX/NE_GreenFieldSystem.uasset'
+[2023.03.16-16.18.48:168][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.03.16-16.18.48:244][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.03.16-16.18.48:319][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.03.16-16.18.48:332][ 27]AssetCheck: New page: Asset Save: NE_GreenFieldSystem
+[2023.03.16-16.18.48:332][ 27]LogContentValidation: Display: Validating NiagaraSystem /Game/MotherEarth/ParticleFX/NE_GreenFieldSystem.NE_GreenFieldSystem
+[2023.03.16-16.18.49:301][ 76]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/MotherEarth/ParticleFX/NE_GreenFieldSystem.NE_GreenFieldSystem
+[2023.03.16-16.18.49:316][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.18.49:326][ 76]LogNiagara: Compiling System NiagaraSystem /Game/MotherEarth/ParticleFX/NE_GreenFieldSystem.NE_GreenFieldSystem took 0.019825 sec, no shader worker used.
+[2023.03.16-16.18.49:339][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.18.49:429][ 76]LogViewport: Scene viewport resized to 355x678, mode Windowed.
+[2023.03.16-16.18.49:561][ 80]218407_NE_GreenFieldSystem_MessageLog: System successfully compiled.
+[2023.03.16-16.18.54:463][533]LogNiagara: Compiling System NiagaraSystem /Game/MotherEarth/ParticleFX/NE_GreenFieldSystem.NE_GreenFieldSystem took 1.019841 sec (time since issued), 2.666353 sec (combined shader worker time).
+[2023.03.16-16.18.54:643][541]218407_NE_GreenFieldSystem_MessageLog: System successfully compiled.
+[2023.03.16-16.18.59:664][ 39]LogSavePackage: Moving output files for package: /Game/MotherEarth/ParticleFX/NE_GreenFieldSystem
+[2023.03.16-16.18.59:665][ 39]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/NE_GreenFieldSystemB6FD85BA45AAA0351F3AFE92E26D3694.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/ParticleFX/NE_GreenFieldSystem.uasset'
+[2023.03.16-16.18.59:690][ 39]AssetCheck: New page: Asset Save: NE_GreenFieldSystem
+[2023.03.16-16.18.59:690][ 39]LogContentValidation: Display: Validating NiagaraSystem /Game/MotherEarth/ParticleFX/NE_GreenFieldSystem.NE_GreenFieldSystem
+[2023.03.16-16.19.01:504][185]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.19.01:504][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.19.01:523][185]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.19.01:523][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.19.01:648][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.03.16-16.19.10:526][884]LogViewport: Scene viewport resized to 956x483, mode Windowed.
+[2023.03.16-16.19.42:015][515]LogSavePackage: Moving output files for package: /Game/MotherEarth/Model_BP/BP_StoneHengeBase
+[2023.03.16-16.19.42:016][515]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/BP_StoneHengeBase89C5B3BF45281A2AB84D34901DC27273.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Model_BP/BP_StoneHengeBase.uasset'
+[2023.03.16-16.19.42:037][515]AssetCheck: New page: Asset Save: BP_StoneHengeBase
+[2023.03.16-16.19.42:037][515]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/Model_BP/BP_StoneHengeBase.BP_StoneHengeBase
+[2023.03.16-16.20.34:462][514]LogSavePackage: Moving output files for package: /Game/MotherEarth/Model_BP/BP_StoneHengeBase
+[2023.03.16-16.20.34:463][514]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/BP_StoneHengeBase9ED3E75D45FC7141F2460A9985BCB5A2.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Model_BP/BP_StoneHengeBase.uasset'
+[2023.03.16-16.20.34:488][514]AssetCheck: New page: Asset Save: BP_StoneHengeBase
+[2023.03.16-16.20.34:488][514]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/Model_BP/BP_StoneHengeBase.BP_StoneHengeBase
+[2023.03.16-16.20.52:356][606]LogSavePackage: Moving output files for package: /Game/MotherEarth/Model_BP/BP_StoneHengeBase
+[2023.03.16-16.20.52:357][606]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/BP_StoneHengeBase0E109A854ED1251E9DABD39AEF17073C.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Model_BP/BP_StoneHengeBase.uasset'
+[2023.03.16-16.20.52:380][606]AssetCheck: New page: Asset Save: BP_StoneHengeBase
+[2023.03.16-16.20.52:380][606]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/Model_BP/BP_StoneHengeBase.BP_StoneHengeBase
+[2023.03.16-16.20.52:687][642]BlueprintLog: New page: Compile BP_StoneHengeBase
+[2023.03.16-16.20.52:826][642]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.03.16-16.20.54:282][760]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.16-16.20.54:293][760]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.16-16.20.54:311][760]LogPlayLevel: [PlayLevel] Compiling NinjaPlayerCharacter_BP before play...
+[2023.03.16-16.20.54:313][760]LogPlayLevel: [PlayLevel]   Compiling GravityEnemyCharacter_BP as a dependent...
+[2023.03.16-16.20.54:314][760]LogPlayLevel: [PlayLevel]   Compiling GravityMinionCharacter_BP as a dependent...
+[2023.03.16-16.20.54:315][760]LogPlayLevel: [PlayLevel]   Compiling GravityPlayerCharacter_BP as a dependent...
+[2023.03.16-16.20.54:320][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2023.03.16-16.20.54:320][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2023.03.16-16.20.54:320][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2023.03.16-16.20.54:320][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2023.03.16-16.20.54:320][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2023.03.16-16.20.54:321][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2023.03.16-16.20.54:321][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2023.03.16-16.20.54:321][760]LogBlueprint: Warning: [AssetLog] D:\Program Files\EpicGames\UE_5.0\Engine\Plugins\Marketplace\NinjaCharacter\Content\NinjaCharacter\Blueprints\NinjaPlayerCharacter_BP.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2023.03.16-16.20.54:728][760]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.03.16-16.20.54:733][760]LogPlayLevel: PlayLevel: Blueprint regeneration took 439 ms (4 blueprints)
+[2023.03.16-16.20.54:733][760]PIE: New page: PIE session: generatedTiles (Mar 16, 2023, 4:20:54 AM)
+[2023.03.16-16.20.54:733][760]LogPlayLevel: Creating play world package: /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.20.54:927][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194500s)
+[2023.03.16-16.20.54:928][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MotherEarth/Levels/generatedTiles.generatedTiles to /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles (0.194776s)
+[2023.03.16-16.20.54:928][760]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.16-16.20.54:928][760]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.20.54:928][760]LogAIModule: Creating AISystem for world generatedTiles
+[2023.03.16-16.20.54:930][760]LogPlayLevel: PIE: World Init took: (0.002524s)
+[2023.03.16-16.20.55:006][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.03.16-16.20.55:007][760]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.03.16-16.20.55:007][760]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.16-16.20.55:007][760]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.16-16.20.55:007][760]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.16-16.20.55:007][760]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.16-16.20.55:007][760]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.16-16.20.55:007][760]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.16-16.20.55:007][760]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.16-16.20.55:007][760]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.16-16.20.55:008][760]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.16-16.20.55:008][760]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.16-16.20.55:008][760]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.16-16.20.55:009][760]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.16-16.20.55:044][760]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.03.16-16.20.55:044][760]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.16-16.20.55:044][760]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.16-16.20.55:044][760]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.16-16.20.55:045][760]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.03.16-16.20.55:045][760]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.03.16-16.20.55:046][760]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.03.16-16.20.55:046][760]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.03.16-16.20.55:046][760]LogInit: FAudioDevice initialized.
+[2023.03.16-16.20.55:046][760]LogAudio: Display: Audio Device (ID: 16) registered with world 'generatedTiles'.
+[2023.03.16-16.20.55:062][760]LogLoad: Game class is 'PlanetGravity_GameMode__C'
+[2023.03.16-16.20.55:092][760]LogWorld: Bringing World /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles up for play (max tick rate 0) at 2023.03.16-10.20.55
+[2023.03.16-16.20.55:097][760]LogWorld: Bringing up level for play took: 0.033050
+[2023.03.16-16.20.55:098][760]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2023.03.16-16.21.08:395][760]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.21.08:730][760]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.21.09:071][760]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.21.09:406][760]PIE: Server logged in
+[2023.03.16-16.21.09:406][760]PIE: Play in editor total start time 15.114 seconds.
+[2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
