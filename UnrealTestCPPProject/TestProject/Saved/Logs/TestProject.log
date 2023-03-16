@@ -10488,3 +10488,79 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
 [2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
 [2023.03.16-16.21.12:692][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.21.48:961][513]LogBlueprintUserMessages: [BP_treeSpell_C_0] treeSpellMade
+[2023.03.16-16.21.50:528][548]LogBlueprintUserMessages: [BP_treeSpell_C_1] treeSpellMade
+[2023.03.16-16.21.52:843][599]LogBlueprintUserMessages: [BP_treeSpell_C_2] treeSpellMade
+[2023.03.16-16.22.06:043][881]LogCharacterMovement: GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626 is stuck and failed to move! Velocity: X=-73.95 Y=-75.62 Z=-63.49 Location: X=2907.96 Y=-4919.77 Z=2468.53 Normal: X=0.72 Y=0.09 Z=0.69 PenetrationDepth:0.212 Actor:StaticMeshActor_UAID_D8BBC1A3E4B2DA6F01_1601569748 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2023.03.16-16.22.06:590][893]LogBlueprintUserMessages: [BP_treeSpell_C_3] treeSpellMade
+[2023.03.16-16.22.10:501][978]LogBlueprintUserMessages: [BP_treeSpell_C_4] treeSpellMade
+[2023.03.16-16.22.12:054][ 12]LogBlueprintUserMessages: [BP_treeSpell_C_5] treeSpellMade
+[2023.03.16-16.22.14:770][ 70]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.14:770][ 70]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.14:770][ 70]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.14:771][ 70]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PathBuffer' of length 4 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.14:771][ 70]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PathBuffer' of length 4 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.14:771][ 70]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PathBuffer' of length 4 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.15:793][ 92]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.15:793][ 92]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.15:793][ 92]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.19:223][168]LogBlueprintUserMessages: [BP_treeSpell_C_6] treeSpellMade
+[2023.03.16-16.22.20:986][207]LogBlueprintUserMessages: [BP_treeSpell_C_7] treeSpellMade
+[2023.03.16-16.22.21:984][228]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.21:984][228]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.21:984][228]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.23:149][254]LogBlueprintUserMessages: [BP_treeSpell_C_8] treeSpellMade
+[2023.03.16-16.22.25:148][298]LogBlueprintUserMessages: [BP_treeSpell_C_9] treeSpellMade
+[2023.03.16-16.22.26:769][334]LogBlueprintUserMessages: [BP_treeSpell_C_10] treeSpellMade
+[2023.03.16-16.22.29:470][394]LogBlueprintUserMessages: [BP_treeSpell_C_11] treeSpellMade
+[2023.03.16-16.22.32:150][453]LogBlueprintUserMessages: [BP_treeSpell_C_12] treeSpellMade
+[2023.03.16-16.22.38:395][590]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.38:395][590]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.38:395][590]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.38:446][592]LogBlueprintUserMessages: [BP_treeSpell_C_13] treeSpellMade
+[2023.03.16-16.22.39:778][620]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.39:778][620]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.39:778][620]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.39:779][620]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.39:779][620]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.39:779][620]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.41:599][659]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.41:599][659]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.41:599][659]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.45:365][745]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.45:365][745]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.45:365][745]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.46:181][764]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.46:181][764]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.46:181][764]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.46:361][768]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.46:361][768]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.46:361][768]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.47:981][805]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.47:981][805]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.47:981][805]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PathBuffer' of length 2 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.50:275][858]LogBlueprintUserMessages: [BP_treeSpell_C_14] treeSpellMade
+[2023.03.16-16.22.55:796][982]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'PathBuffer' of length 5 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.55:796][982]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'PathBuffer' of length 5 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.22.55:796][982]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'PathBuffer' of length 5 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.23.01:363][104]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PathBuffer' of length 4 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.23.01:363][104]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PathBuffer' of length 4 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.23.01:363][104]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PathBuffer' of length 4 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.23.02:718][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.23.02:718][135]LogWorld: BeginTearingDown for /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.23.02:721][135]LogWorld: UWorld::CleanupWorld for generatedTiles, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.23.02:745][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.23.02:768][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.16-16.23.02:783][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.23.02:957][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.23.02:972][135]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.16-16.23.02:973][135]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.03.16-16.23.03:051][135]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2023.03.16-16.23.03:165][136]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.03.16-16.23.03:189][136]LogViewport: Scene viewport resized to 451x297, mode Windowed.
+[2023.03.16-16.23.24:660][329]LogSavePackage: Moving output files for package: /Game/MotherEarth/Model_BP/BP_StoneHengeBase
+[2023.03.16-16.23.24:661][329]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/BP_StoneHengeBaseB77566CC449A7B21452F37AC6B1B08DD.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Model_BP/BP_StoneHengeBase.uasset'
+[2023.03.16-16.23.24:683][329]AssetCheck: New page: Asset Save: BP_StoneHengeBase
+[2023.03.16-16.23.24:683][329]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/Model_BP/BP_StoneHengeBase.BP_StoneHengeBase
+[2023.03.16-16.23.26:048][478]BlueprintLog: New page: Compile BP_StoneHengeBase
+[2023.03.16-16.23.26:181][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
