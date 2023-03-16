@@ -10564,3 +10564,805 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.03.16-16.23.24:683][329]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/Model_BP/BP_StoneHengeBase.BP_StoneHengeBase
 [2023.03.16-16.23.26:048][478]BlueprintLog: New page: Compile BP_StoneHengeBase
 [2023.03.16-16.23.26:181][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.03.16-16.25.52:860][ 15]LogViewport: Scene viewport resized to 956x485, mode Windowed.
+[2023.03.16-16.26.27:675][950]LogEditorTransaction: Undo Modify Component(s)
+[2023.03.16-16.26.35:805][806]LogSavePackage: Moving output files for package: /Game/MotherEarth/GravityPlayerCharacter_BP
+[2023.03.16-16.26.35:805][806]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/GravityPlayerCharacter_BP33EED24345A38066D8C18A94EB4B0738.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/GravityPlayerCharacter_BP.uasset'
+[2023.03.16-16.26.35:834][806]AssetCheck: New page: Asset Save: GravityPlayerCharacter_BP
+[2023.03.16-16.26.35:834][806]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/GravityPlayerCharacter_BP.GravityPlayerCharacter_BP
+[2023.03.16-16.26.36:611][888]BlueprintLog: New page: Compile GravityPlayerCharacter_BP
+[2023.03.16-16.26.36:813][888]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.03.16-16.26.38:432][994]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.16-16.26.38:442][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.16-16.26.38:442][994]PIE: New page: PIE session: generatedTiles (Mar 16, 2023, 4:26:38 AM)
+[2023.03.16-16.26.38:442][994]LogPlayLevel: Creating play world package: /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.26.38:639][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.196771s)
+[2023.03.16-16.26.38:639][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MotherEarth/Levels/generatedTiles.generatedTiles to /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles (0.197092s)
+[2023.03.16-16.26.38:639][994]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.16-16.26.38:639][994]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.26.38:640][994]LogAIModule: Creating AISystem for world generatedTiles
+[2023.03.16-16.26.38:642][994]LogPlayLevel: PIE: World Init took: (0.002759s)
+[2023.03.16-16.26.38:722][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.03.16-16.26.38:727][994]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.03.16-16.26.38:727][994]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.16-16.26.38:727][994]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.16-16.26.38:727][994]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.16-16.26.38:727][994]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.16-16.26.38:727][994]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.16-16.26.38:727][994]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.16-16.26.38:727][994]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.16-16.26.38:727][994]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.16-16.26.38:727][994]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.16-16.26.38:727][994]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.16-16.26.38:727][994]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.16-16.26.38:729][994]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.16-16.26.38:760][994]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.03.16-16.26.38:761][994]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.16-16.26.38:761][994]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.16-16.26.38:761][994]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.16-16.26.38:761][994]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.03.16-16.26.38:761][994]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.03.16-16.26.38:762][994]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.03.16-16.26.38:762][994]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.03.16-16.26.38:762][994]LogInit: FAudioDevice initialized.
+[2023.03.16-16.26.38:762][994]LogAudio: Display: Audio Device (ID: 17) registered with world 'generatedTiles'.
+[2023.03.16-16.26.38:778][994]LogLoad: Game class is 'PlanetGravity_GameMode__C'
+[2023.03.16-16.26.38:808][994]LogWorld: Bringing World /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles up for play (max tick rate 0) at 2023.03.16-10.26.38
+[2023.03.16-16.26.38:812][994]LogWorld: Bringing up level for play took: 0.033012
+[2023.03.16-16.26.38:813][994]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2023.03.16-16.26.52:117][994]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.26.52:451][994]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.26.52:786][994]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.26.53:121][994]PIE: Server logged in
+[2023.03.16-16.26.53:122][994]PIE: Play in editor total start time 14.68 seconds.
+[2023.03.16-16.26.55:040][995]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626', movement 'Walking'
+[2023.03.16-16.26.56:017][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.26.56:017][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.26.56:017][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.26.56:017][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.26.56:017][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.26.56:017][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.27.05:538][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.27.05:538][217]LogWorld: BeginTearingDown for /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.27.05:541][217]LogWorld: UWorld::CleanupWorld for generatedTiles, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.27.05:565][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.27.05:598][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.16-16.27.05:615][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.27.05:785][217]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.16-16.27.05:787][217]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.16-16.27.05:788][217]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.03.16-16.27.05:793][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.27.05:859][217]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2023.03.16-16.27.05:966][218]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.03.16-16.27.05:981][218]LogViewport: Scene viewport resized to 451x297, mode Windowed.
+[2023.03.16-16.28.10:774][361]LogSavePackage: Moving output files for package: /Game/MotherEarth/GravityPlayerCharacter_BP
+[2023.03.16-16.28.10:775][361]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/GravityPlayerCharacter_BP048EA5ED4767DA49D598EBA91D91D764.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/GravityPlayerCharacter_BP.uasset'
+[2023.03.16-16.28.10:804][361]AssetCheck: New page: Asset Save: GravityPlayerCharacter_BP
+[2023.03.16-16.28.10:804][361]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/GravityPlayerCharacter_BP.GravityPlayerCharacter_BP
+[2023.03.16-16.28.13:518][652]BlueprintLog: New page: Compile GravityPlayerCharacter_BP
+[2023.03.16-16.28.13:778][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.03.16-16.28.15:850][795]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.16-16.28.15:860][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.16-16.28.15:860][795]PIE: New page: PIE session: generatedTiles (Mar 16, 2023, 4:28:15 AM)
+[2023.03.16-16.28.15:860][795]LogPlayLevel: Creating play world package: /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.28.16:059][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.198720s)
+[2023.03.16-16.28.16:060][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MotherEarth/Levels/generatedTiles.generatedTiles to /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles (0.198924s)
+[2023.03.16-16.28.16:060][795]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.16-16.28.16:060][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.28.16:060][795]LogAIModule: Creating AISystem for world generatedTiles
+[2023.03.16-16.28.16:062][795]LogPlayLevel: PIE: World Init took: (0.002670s)
+[2023.03.16-16.28.16:139][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.03.16-16.28.16:143][795]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.03.16-16.28.16:143][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.16-16.28.16:143][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.16-16.28.16:143][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.16-16.28.16:143][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.16-16.28.16:143][795]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.16-16.28.16:143][795]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.16-16.28.16:143][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.16-16.28.16:143][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.16-16.28.16:143][795]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.16-16.28.16:143][795]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.16-16.28.16:143][795]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.16-16.28.16:145][795]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.16-16.28.16:180][795]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.03.16-16.28.16:180][795]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.16-16.28.16:180][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.16-16.28.16:180][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.16-16.28.16:181][795]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.03.16-16.28.16:181][795]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.03.16-16.28.16:182][795]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.03.16-16.28.16:182][795]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.03.16-16.28.16:182][795]LogInit: FAudioDevice initialized.
+[2023.03.16-16.28.16:182][795]LogAudio: Display: Audio Device (ID: 18) registered with world 'generatedTiles'.
+[2023.03.16-16.28.16:198][795]LogLoad: Game class is 'PlanetGravity_GameMode__C'
+[2023.03.16-16.28.16:227][795]LogWorld: Bringing World /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles up for play (max tick rate 0) at 2023.03.16-10.28.16
+[2023.03.16-16.28.16:231][795]LogWorld: Bringing up level for play took: 0.033381
+[2023.03.16-16.28.16:233][795]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.03.16-16.28.29:268][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.28.29:596][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.28.29:923][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.28.30:255][795]PIE: Server logged in
+[2023.03.16-16.28.30:255][795]PIE: Play in editor total start time 14.395 seconds.
+[2023.03.16-16.28.32:067][796]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626', movement 'Walking'
+[2023.03.16-16.28.32:990][806]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.28.32:990][806]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.28.32:990][806]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.28.32:990][806]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.28.32:990][806]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.28.32:990][806]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.28.53:536][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.28.53:536][279]LogWorld: BeginTearingDown for /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.28.53:538][279]LogWorld: UWorld::CleanupWorld for generatedTiles, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.28.53:561][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.28.53:582][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.16-16.28.53:598][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.28.53:773][279]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.16-16.28.53:773][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.16-16.28.53:775][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.03.16-16.28.53:780][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.28.53:847][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.03.16-16.28.53:974][280]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.03.16-16.28.53:991][280]LogViewport: Scene viewport resized to 451x297, mode Windowed.
+[2023.03.16-16.29.25:040][555]LogSavePackage: Moving output files for package: /Game/MotherEarth/GravityPlayerCharacter_BP
+[2023.03.16-16.29.25:041][555]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/GravityPlayerCharacter_BP4EFF569C407603994F4C2A99FE44A45C.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/GravityPlayerCharacter_BP.uasset'
+[2023.03.16-16.29.25:069][555]AssetCheck: New page: Asset Save: GravityPlayerCharacter_BP
+[2023.03.16-16.29.25:069][555]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/GravityPlayerCharacter_BP.GravityPlayerCharacter_BP
+[2023.03.16-16.29.50:806][423]LogSavePackage: Moving output files for package: /Game/MotherEarth/GravityPlayerCharacter_BP
+[2023.03.16-16.29.50:807][423]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/GravityPlayerCharacter_BP5A3B70D3435F61B0D2304880801C363C.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/GravityPlayerCharacter_BP.uasset'
+[2023.03.16-16.29.50:829][423]AssetCheck: New page: Asset Save: GravityPlayerCharacter_BP
+[2023.03.16-16.29.50:829][423]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/GravityPlayerCharacter_BP.GravityPlayerCharacter_BP
+[2023.03.16-16.29.51:585][495]BlueprintLog: New page: Compile GravityPlayerCharacter_BP
+[2023.03.16-16.29.51:809][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.03.16-16.29.53:482][618]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.16-16.29.53:491][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.16-16.29.53:491][618]PIE: New page: PIE session: generatedTiles (Mar 16, 2023, 4:29:53 AM)
+[2023.03.16-16.29.53:492][618]LogPlayLevel: Creating play world package: /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.29.53:687][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194991s)
+[2023.03.16-16.29.53:687][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MotherEarth/Levels/generatedTiles.generatedTiles to /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles (0.195248s)
+[2023.03.16-16.29.53:687][618]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.16-16.29.53:687][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.29.53:688][618]LogAIModule: Creating AISystem for world generatedTiles
+[2023.03.16-16.29.53:690][618]LogPlayLevel: PIE: World Init took: (0.002584s)
+[2023.03.16-16.29.53:769][618]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.03.16-16.29.53:772][618]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.03.16-16.29.53:772][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.16-16.29.53:772][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.16-16.29.53:772][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.16-16.29.53:772][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.16-16.29.53:772][618]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.16-16.29.53:772][618]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.16-16.29.53:772][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.16-16.29.53:772][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.16-16.29.53:772][618]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.16-16.29.53:772][618]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.16-16.29.53:772][618]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.16-16.29.53:775][618]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.16-16.29.53:808][618]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.03.16-16.29.53:808][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.16-16.29.53:808][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.16-16.29.53:808][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.16-16.29.53:809][618]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.03.16-16.29.53:809][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.03.16-16.29.53:810][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.03.16-16.29.53:810][618]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.03.16-16.29.53:810][618]LogInit: FAudioDevice initialized.
+[2023.03.16-16.29.53:810][618]LogAudio: Display: Audio Device (ID: 19) registered with world 'generatedTiles'.
+[2023.03.16-16.29.53:820][618]LogLoad: Game class is 'PlanetGravity_GameMode__C'
+[2023.03.16-16.29.53:849][618]LogWorld: Bringing World /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles up for play (max tick rate 0) at 2023.03.16-10.29.53
+[2023.03.16-16.29.53:854][618]LogWorld: Bringing up level for play took: 0.033196
+[2023.03.16-16.29.53:855][618]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.03.16-16.30.06:974][618]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.30.07:301][618]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.30.07:626][618]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.30.07:953][618]PIE: Server logged in
+[2023.03.16-16.30.07:954][618]PIE: Play in editor total start time 14.463 seconds.
+[2023.03.16-16.30.09:755][619]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626', movement 'Walking'
+[2023.03.16-16.30.10:733][629]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.30.10:733][629]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.30.10:733][629]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.30.10:733][629]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.30.10:733][629]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.30.10:733][629]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.30.32:427][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.30.32:427][118]LogWorld: BeginTearingDown for /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.30.32:431][118]LogWorld: UWorld::CleanupWorld for generatedTiles, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.30.32:454][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.30.32:473][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.16-16.30.32:489][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.30.32:659][118]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.16-16.30.32:660][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.03.16-16.30.32:661][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.03.16-16.30.32:665][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.30.32:733][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2023.03.16-16.30.32:833][119]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.03.16-16.30.32:851][119]LogViewport: Scene viewport resized to 451x297, mode Windowed.
+[2023.03.16-16.30.36:253][305]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MotherEarth/Materials/MAT_greenGrass.MAT_greenGrass
+[2023.03.16-16.30.36:400][305]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 3CF99B318448AEB8CBAB371799A0D1D4AA512EA4), compiling. 
+[2023.03.16-16.30.36:625][305]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.30.36:749][305]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 223B957899CADA3DAD6FD6FA062184971ACB36C0), compiling. 
+[2023.03.16-16.30.36:755][305]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 4BE6B36E12417C5EBCCFB04D503AE3AB22A2A3F0), compiling. 
+[2023.03.16-16.30.36:759][305]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1905787645DEC619702D5B624E1252C278C7F00C), compiling. 
+[2023.03.16-16.30.36:814][305]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.30.36:814][305]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.30.36:814][305]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.30.36:832][305]LogViewport: Scene viewport resized to 376x469, mode Windowed.
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: ================================================
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Total job queries 54, among them cache hits 0 (0.00%)
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Tracking 37 distinct input hashes that result in 27 distinct outputs (72.97%)
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: RAM used: 0.51 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Shaders Compiled: 15
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Jobs assigned 41, completed 37 (90.24%)
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Average time worker was idle: 135.49 s
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.69 s
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 1.04 s
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 1.10
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.89 s
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Jobs were issued in 35 batches (only local compilation was used), average 1.17 jobs/batch
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Average processing rate: 3.74 jobs/sec
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Effective parallelization: 0.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   36 times, average 0.17 sec, max 0.42 sec, min 0.05 sec)
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display:                                               FNiagaraShader - 92.13% of total time (compiled   36 times, average 0.17 sec, max 0.42 sec, min 0.05 sec)
+[2023.03.16-16.30.37:819][371]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.87% of total time (compiled    1 times, average 0.52 sec, max 0.52 sec, min 0.52 sec)
+[2023.03.16-16.30.37:820][371]LogShaderCompilers: Display: ================================================
+[2023.03.16-16.30.38:420][415]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.30.38:420][415]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.30.38:420][415]MaterialEditorStats: Shader Count: 2
+[2023.03.16-16.30.54:726][285]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: E79F97DA69E9A1A20A8D4681BDEF14FA33E456DC), compiling. 
+[2023.03.16-16.30.54:731][285]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: EF33D724AEC182B5E7B32A7A892E9BC0DE30893B), compiling. 
+[2023.03.16-16.30.54:734][285]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: CA72EC30ECC31AAF5D590FE7B6B58EA94BC625B2), compiling. 
+[2023.03.16-16.30.54:737][285]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 698BEF33BC32F5D33F436EEE6ADFF02BAF14BE73), compiling. 
+[2023.03.16-16.30.54:744][285]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.30.54:744][285]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.30.54:744][285]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.30.55:956][378]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.30.55:956][378]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.30.55:957][378]MaterialEditorStats: Shader Count: 2
+[2023.03.16-16.31.03:350][236]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 81001EAC487FECF3CE144701B9654CB7E7FA240B), compiling. 
+[2023.03.16-16.31.03:354][236]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 764790ED90C5DB2D679E7FDE69F6C220E868070C), compiling. 
+[2023.03.16-16.31.04:808][410]LogEditorTransaction: Undo Break Pin Links
+[2023.03.16-16.31.04:809][410]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 1C153D1D6FE7EDBBFBB84351CCA545DDD6ED4966), compiling. 
+[2023.03.16-16.31.04:819][410]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 16934E1173C9F66A106A3B9D36382F2A3E7A0F2B), compiling. 
+[2023.03.16-16.31.04:835][410]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.04:835][410]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.04:835][410]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.04:933][412]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.04:933][412]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.04:933][412]MaterialEditorStats: Shader Count: 4
+[2023.03.16-16.31.06:271][529]LogMaterialEditor: Saving and Compiling material MAT_greenGrass
+[2023.03.16-16.31.06:733][529]LogMaterial: Display: Missing cached shadermap for Preview:MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 4035F56C0404EE9C7B00FCF2F61A26BBD00D9342), compiling. 
+[2023.03.16-16.31.06:770][529]LogMaterial: Display: Missing cached shadermap for MAT_greenGrass in PCD3D_SM5, Default, SM5 (DDC key hash: 6799A4F3AD309BE12E2934CDAD5B87482DB13BB7), compiling. 
+[2023.03.16-16.31.06:880][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.03.16-16.31.07:752][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.03.16-16.31.10:830][529]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.03.16-16.31.10:830][529]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049915s
+[2023.03.16-16.31.10:842][529]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001029s (0.057828s overbudget)
+[2023.03.16-16.31.10:881][529]LogSavePackage: Moving output files for package: /Game/MotherEarth/Materials/MAT_greenGrass
+[2023.03.16-16.31.10:882][529]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/MAT_greenGrassF524AA71472580D6B6E4C590AC54CAEF.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Materials/MAT_greenGrass.uasset'
+[2023.03.16-16.31.10:917][529]AssetCheck: New page: Asset Save: MAT_greenGrass
+[2023.03.16-16.31.10:918][529]LogContentValidation: Display: Validating Material /Game/MotherEarth/Materials/MAT_greenGrass.MAT_greenGrass
+[2023.03.16-16.31.10:919][529]MaterialEditorStats: Base pass shader: 125 instructions
+[2023.03.16-16.31.10:919][529]MaterialEditorStats: Base pass vertex shader: 108 instructions
+[2023.03.16-16.31.10:919][529]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.16-16.31.10:919][529]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.10:919][529]MaterialEditorStats: Shader Count: 16
+[2023.03.16-16.31.25:815][770]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MotherEarth/Materials/MAT_TreeBark.MAT_TreeBark
+[2023.03.16-16.31.25:817][770]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeBark in PCD3D_SM5, Default, SM5 (DDC key hash: 3787877D2FB1CA5C293E9E91913DD87E533BA139), compiling. 
+[2023.03.16-16.31.25:833][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.31.25:902][770]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeBark in PCD3D_SM5, Default, SM5 (DDC key hash: ABFAE79BDE46DAE8A94F00F7E7F2E1B517A9458A), compiling. 
+[2023.03.16-16.31.25:906][770]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeBark in PCD3D_SM5, Default, SM5 (DDC key hash: F9A78B64989622668A9D873BC25A6F5F18642E91), compiling. 
+[2023.03.16-16.31.25:909][770]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2DF070CBBEB8F5888ECB74508E734AE956F2DDC8), compiling. 
+[2023.03.16-16.31.25:950][770]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.25:950][770]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.25:950][770]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.25:956][770]LogViewport: Scene viewport resized to 376x469, mode Windowed.
+[2023.03.16-16.31.27:209][872]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.27:209][872]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.27:209][872]MaterialEditorStats: Shader Count: 2
+[2023.03.16-16.31.27:465][899]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeBark in PCD3D_SM5, Default, SM5 (DDC key hash: 67AA434B348AB8F4D22F0B3F4822B0B5AEA6D1DE), compiling. 
+[2023.03.16-16.31.27:469][899]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: C82D31E21F085C89BEE1177449E4B508C219D9C1), compiling. 
+[2023.03.16-16.31.27:472][899]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.27:472][899]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.27:472][899]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.27:497][901]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.27:497][901]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.27:497][901]MaterialEditorStats: Shader Count: 4
+[2023.03.16-16.31.29:715][128]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeBark in PCD3D_SM5, Default, SM5 (DDC key hash: 1965172DD3B8493B01FDCFC5F472CF7DA29746CB), compiling. 
+[2023.03.16-16.31.29:719][128]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2FB526B526F04379C58AAC239B8D2BC6DA5B3D2F), compiling. 
+[2023.03.16-16.31.29:723][128]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.29:724][128]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.29:724][128]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.30:791][208]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.30:791][208]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.30:791][208]MaterialEditorStats: Shader Count: 2
+[2023.03.16-16.31.30:858][216]LogMaterialEditor: Saving and Compiling material MAT_TreeBark
+[2023.03.16-16.31.31:294][216]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeBark in PCD3D_SM5, Default, SM5 (DDC key hash: A1DBC0FE791DE573172CDE51A118D028F5CC3FE3), compiling. 
+[2023.03.16-16.31.31:317][216]LogMaterial: Display: Missing cached shadermap for MAT_TreeBark in PCD3D_SM5, Default, SM5 (DDC key hash: F8CD911C62D34A617155F377F7E42A9C67939E63), compiling. 
+[2023.03.16-16.31.31:424][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.16-16.31.32:278][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.03.16-16.31.34:379][216]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.03.16-16.31.34:754][216]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004981s (0.384981s overbudget)
+[2023.03.16-16.31.34:793][216]LogSavePackage: Moving output files for package: /Game/MotherEarth/Materials/MAT_TreeBark
+[2023.03.16-16.31.34:793][216]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/MAT_TreeBark09C14B8C4E424A7E923DB79D380B77C2.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Materials/MAT_TreeBark.uasset'
+[2023.03.16-16.31.34:815][216]AssetCheck: New page: Asset Save: MAT_TreeBark
+[2023.03.16-16.31.34:815][216]LogContentValidation: Display: Validating Material /Game/MotherEarth/Materials/MAT_TreeBark.MAT_TreeBark
+[2023.03.16-16.31.34:818][216]MaterialEditorStats: Base pass shader: 125 instructions
+[2023.03.16-16.31.34:819][216]MaterialEditorStats: Base pass vertex shader: 108 instructions
+[2023.03.16-16.31.34:819][216]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.16-16.31.34:819][216]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.34:819][216]MaterialEditorStats: Shader Count: 16
+[2023.03.16-16.31.39:898][649]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MotherEarth/Materials/MAT_TreeLeaves.MAT_TreeLeaves
+[2023.03.16-16.31.39:900][649]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeLeaves in PCD3D_SM5, Default, SM5 (DDC key hash: F51A9DFB5C7368C655F84CEFCA55D9B534E52B60), compiling. 
+[2023.03.16-16.31.39:918][649]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.31.39:983][649]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeLeaves in PCD3D_SM5, Default, SM5 (DDC key hash: 15B212FF3E345622668E5AE9F609415CF2EC7F3B), compiling. 
+[2023.03.16-16.31.39:986][649]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeLeaves in PCD3D_SM5, Default, SM5 (DDC key hash: C3AE8E06648CAF7938BDAF06D02C96608BC29C17), compiling. 
+[2023.03.16-16.31.39:991][649]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: FE7384FF63E80B82E7ABA337C79E1DDDC8C2D5BD), compiling. 
+[2023.03.16-16.31.40:032][649]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.40:032][649]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.40:032][649]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.40:038][649]LogViewport: Scene viewport resized to 376x469, mode Windowed.
+[2023.03.16-16.31.41:238][742]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.41:238][742]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.41:238][742]MaterialEditorStats: Shader Count: 4
+[2023.03.16-16.31.41:880][815]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeLeaves in PCD3D_SM5, Default, SM5 (DDC key hash: AE15092E904A2218CFD67B70982FBFB7BDF61392), compiling. 
+[2023.03.16-16.31.41:883][815]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 118F49CE6A35F5BD584F9213C3449F5A01BDC331), compiling. 
+[2023.03.16-16.31.41:887][815]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.41:887][815]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.41:887][815]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.41:912][817]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.41:912][817]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.41:912][817]MaterialEditorStats: Shader Count: 4
+[2023.03.16-16.31.44:589][ 99]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeLeaves in PCD3D_SM5, Default, SM5 (DDC key hash: 64FC2C4A6FE4FD1EBDACE8308140E7020496C31B), compiling. 
+[2023.03.16-16.31.44:593][ 99]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: D70DBC6090A715CA5502D13306CCC5CEAECA142D), compiling. 
+[2023.03.16-16.31.44:599][ 99]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.44:599][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.44:599][ 99]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.45:804][203]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.45:804][203]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.45:804][203]MaterialEditorStats: Shader Count: 3
+[2023.03.16-16.31.45:846][208]LogMaterialEditor: Saving and Compiling material MAT_TreeLeaves
+[2023.03.16-16.31.46:279][208]LogMaterial: Display: Missing cached shadermap for Preview:MAT_TreeLeaves in PCD3D_SM5, Default, SM5 (DDC key hash: 7FAB20BCAA634EB31626B7EFD42C341885005DE9), compiling. 
+[2023.03.16-16.31.46:304][208]LogMaterial: Display: Missing cached shadermap for MAT_TreeLeaves in PCD3D_SM5, Default, SM5 (DDC key hash: 47ABB4A925811581D074F7365AE71D64B9D8E907), compiling. 
+[2023.03.16-16.31.46:404][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.03.16-16.31.47:245][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.03.16-16.31.49:349][208]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.03.16-16.31.49:892][208]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004470s (0.557168s overbudget)
+[2023.03.16-16.31.49:932][208]LogSavePackage: Moving output files for package: /Game/MotherEarth/Materials/MAT_TreeLeaves
+[2023.03.16-16.31.49:933][208]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/MAT_TreeLeaves1676CD844A9EE4054119E78C54BC395D.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Materials/MAT_TreeLeaves.uasset'
+[2023.03.16-16.31.49:953][208]AssetCheck: New page: Asset Save: MAT_TreeLeaves
+[2023.03.16-16.31.49:954][208]LogContentValidation: Display: Validating Material /Game/MotherEarth/Materials/MAT_TreeLeaves.MAT_TreeLeaves
+[2023.03.16-16.31.49:956][208]MaterialEditorStats: Base pass shader: 125 instructions
+[2023.03.16-16.31.49:957][208]MaterialEditorStats: Base pass vertex shader: 108 instructions
+[2023.03.16-16.31.49:957][208]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.16-16.31.49:957][208]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.49:957][208]MaterialEditorStats: Shader Count: 16
+[2023.03.16-16.31.55:898][863]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MotherEarth/Materials/MAT_Barren.MAT_Barren
+[2023.03.16-16.31.55:900][863]LogMaterial: Display: Missing cached shadermap for Preview:MAT_Barren in PCD3D_SM5, Default, SM5 (DDC key hash: B39D358CDC00102BE6F6350D76F4A13B0AF2FD2B), compiling. 
+[2023.03.16-16.31.55:916][863]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.31.55:983][863]LogMaterial: Display: Missing cached shadermap for Preview:MAT_Barren in PCD3D_SM5, Default, SM5 (DDC key hash: A6F09F54424CE4699ADAFFBE350C4FB8748A7E06), compiling. 
+[2023.03.16-16.31.55:987][863]LogMaterial: Display: Missing cached shadermap for Preview:MAT_Barren in PCD3D_SM5, Default, SM5 (DDC key hash: 43FA7C31C02C17636D74DEAC2E65147F2B90A37F), compiling. 
+[2023.03.16-16.31.55:990][863]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 6A4E14E91C8196E6D2D2769BD002D016ABFCEC9D), compiling. 
+[2023.03.16-16.31.56:034][863]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.56:034][863]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.56:034][863]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.56:040][863]LogViewport: Scene viewport resized to 376x469, mode Windowed.
+[2023.03.16-16.31.57:260][969]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.57:260][969]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.57:260][969]MaterialEditorStats: Shader Count: 2
+[2023.03.16-16.31.59:020][173]LogMaterial: Display: Missing cached shadermap for Preview:MAT_Barren in PCD3D_SM5, Default, SM5 (DDC key hash: A4F1A5743767EDD1EDD38D9F5C3C652E3EA16454), compiling. 
+[2023.03.16-16.31.59:024][173]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 3F775DDFDEEC0C4004DDDE576F22F61F9682097A), compiling. 
+[2023.03.16-16.31.59:028][173]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.31.59:028][173]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.59:028][173]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.31.59:052][175]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.31.59:052][175]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.31.59:052][175]MaterialEditorStats: Shader Count: 4
+[2023.03.16-16.32.01:589][443]LogMaterial: Display: Missing cached shadermap for Preview:MAT_Barren in PCD3D_SM5, Default, SM5 (DDC key hash: 384129EDF3FD1D2944BE1538C8824C9ACE96A61C), compiling. 
+[2023.03.16-16.32.01:593][443]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 6562423F3F4FB6E5A48F6D59DE3C9B0B92D5FA42), compiling. 
+[2023.03.16-16.32.01:599][443]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.32.01:599][443]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.32.01:599][443]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.32.02:826][547]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.32.02:826][547]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.32.02:826][547]MaterialEditorStats: Shader Count: 3
+[2023.03.16-16.32.04:275][715]LogMaterialEditor: Saving and Compiling material MAT_Barren
+[2023.03.16-16.32.04:710][715]LogMaterial: Display: Missing cached shadermap for Preview:MAT_Barren in PCD3D_SM5, Default, SM5 (DDC key hash: 88563924A78DBC67CD750752FACA05034E81AF43), compiling. 
+[2023.03.16-16.32.04:736][715]LogMaterial: Display: Missing cached shadermap for MAT_Barren in PCD3D_SM5, Default, SM5 (DDC key hash: BB131F01B413F71C5CB9ED59A70E45CD4A52083B), compiling. 
+[2023.03.16-16.32.04:842][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.03.16-16.32.05:815][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.03.16-16.32.07:912][715]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.03.16-16.32.08:445][715]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001031s (0.539670s overbudget)
+[2023.03.16-16.32.08:483][715]LogSavePackage: Moving output files for package: /Game/MotherEarth/Materials/MAT_Barren
+[2023.03.16-16.32.08:484][715]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/MAT_BarrenBD6BA3954DCF4C04AF535DAEA7B5BCC3.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Materials/MAT_Barren.uasset'
+[2023.03.16-16.32.08:512][715]AssetCheck: New page: Asset Save: MAT_Barren
+[2023.03.16-16.32.08:512][715]LogContentValidation: Display: Validating Material /Game/MotherEarth/Materials/MAT_Barren.MAT_Barren
+[2023.03.16-16.32.08:513][715]MaterialEditorStats: Base pass shader: 125 instructions
+[2023.03.16-16.32.08:513][715]MaterialEditorStats: Base pass vertex shader: 108 instructions
+[2023.03.16-16.32.08:514][715]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.16-16.32.08:514][715]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.32.08:514][715]MaterialEditorStats: Shader Count: 16
+[2023.03.16-16.32.10:713][886]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.16-16.32.10:723][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.16-16.32.10:723][886]PIE: New page: PIE session: generatedTiles (Mar 16, 2023, 4:32:10 AM)
+[2023.03.16-16.32.10:723][886]LogPlayLevel: Creating play world package: /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.32.10:922][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.197901s)
+[2023.03.16-16.32.10:922][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MotherEarth/Levels/generatedTiles.generatedTiles to /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles (0.198111s)
+[2023.03.16-16.32.10:922][886]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.16-16.32.10:922][886]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.32.10:923][886]LogAIModule: Creating AISystem for world generatedTiles
+[2023.03.16-16.32.10:925][886]LogPlayLevel: PIE: World Init took: (0.002616s)
+[2023.03.16-16.32.11:002][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.03.16-16.32.11:004][886]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.03.16-16.32.11:004][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.16-16.32.11:004][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.16-16.32.11:004][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.16-16.32.11:004][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.16-16.32.11:004][886]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.16-16.32.11:004][886]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.16-16.32.11:004][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.16-16.32.11:004][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.16-16.32.11:005][886]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.16-16.32.11:005][886]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.16-16.32.11:005][886]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.16-16.32.11:006][886]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.16-16.32.11:042][886]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.03.16-16.32.11:043][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.16-16.32.11:043][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.16-16.32.11:043][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.16-16.32.11:044][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.03.16-16.32.11:044][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.03.16-16.32.11:045][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.03.16-16.32.11:045][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.03.16-16.32.11:045][886]LogInit: FAudioDevice initialized.
+[2023.03.16-16.32.11:045][886]LogAudio: Display: Audio Device (ID: 20) registered with world 'generatedTiles'.
+[2023.03.16-16.32.11:056][886]LogLoad: Game class is 'PlanetGravity_GameMode__C'
+[2023.03.16-16.32.11:087][886]LogWorld: Bringing World /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles up for play (max tick rate 0) at 2023.03.16-10.32.11
+[2023.03.16-16.32.11:091][886]LogWorld: Bringing up level for play took: 0.033815
+[2023.03.16-16.32.11:093][886]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2023.03.16-16.32.24:229][886]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.32.24:551][886]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.32.24:873][886]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.32.25:197][886]PIE: Server logged in
+[2023.03.16-16.32.25:198][886]PIE: Play in editor total start time 14.475 seconds.
+[2023.03.16-16.32.27:309][887]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626', movement 'Walking'
+[2023.03.16-16.32.28:286][897]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.32.28:286][897]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.32.28:286][897]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.32.28:286][897]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.32.28:286][897]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.32.28:286][897]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.32.51:977][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.32.51:977][432]LogWorld: BeginTearingDown for /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.32.51:980][432]LogWorld: UWorld::CleanupWorld for generatedTiles, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.32.52:004][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.32.52:026][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.16-16.32.52:048][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.32.52:208][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.32.52:223][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.03.16-16.32.52:224][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.03.16-16.32.52:294][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.03.16-16.32.52:375][433]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2023.03.16-16.32.52:414][433]LogViewport: Scene viewport resized to 451x297, mode Windowed.
+[2023.03.16-16.33.15:606][271]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.33.15:606][271]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.33.15:832][292]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.33.15:833][292]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.03.16-16.33.16:704][367]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MotherEarth/Environmental/Stone.Stone
+[2023.03.16-16.33.16:706][367]LogMaterial: Display: Missing cached shadermap for Preview:Stone in PCD3D_SM5, Default, SM5 (DDC key hash: 291D45307254BFFEE677B1467A2393501750B84A), compiling. 
+[2023.03.16-16.33.16:722][367]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.33.16:785][367]LogMaterial: Display: Missing cached shadermap for Preview:Stone in PCD3D_SM5, Default, SM5 (DDC key hash: EE8DF4760ED49F76D6BF72889B8B4EBBD9B44960), compiling. 
+[2023.03.16-16.33.16:787][367]LogMaterial: Display: Missing cached shadermap for Preview:Stone in PCD3D_SM5, Default, SM5 (DDC key hash: FC5B1F4983B84F28483E03A46EF889F5374B0448), compiling. 
+[2023.03.16-16.33.16:791][367]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0F889A803C98CADA89F87D7BBEB8B32E1C7CAB7D), compiling. 
+[2023.03.16-16.33.16:839][367]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.33.16:839][367]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.16:839][367]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.33.16:845][367]LogViewport: Scene viewport resized to 376x469, mode Windowed.
+[2023.03.16-16.33.18:642][515]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.33.18:642][515]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.18:642][515]MaterialEditorStats: Shader Count: 3
+[2023.03.16-16.33.19:330][591]LogMaterial: Display: Missing cached shadermap for Preview:Stone in PCD3D_SM5, Default, SM5 (DDC key hash: BC9113AB0EFA4E888470B4D48F6EE3C847172385), compiling. 
+[2023.03.16-16.33.19:334][591]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: F0A507E41DD8EF67B24C85CFD9806D9C5590A740), compiling. 
+[2023.03.16-16.33.19:337][591]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.33.19:337][591]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.19:337][591]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.33.19:362][593]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.33.19:362][593]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.19:362][593]MaterialEditorStats: Shader Count: 4
+[2023.03.16-16.33.21:040][762]LogMaterial: Display: Missing cached shadermap for Preview:Stone in PCD3D_SM5, Default, SM5 (DDC key hash: DCD875293ED4F12FAC51387B0F08F1550C1605CE), compiling. 
+[2023.03.16-16.33.21:043][762]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 7648B3FD7DB51941C9D40E7C7A490A73001BE477), compiling. 
+[2023.03.16-16.33.21:049][762]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.33.21:049][762]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.21:049][762]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.33.22:153][845]LogMaterialEditor: Saving and Compiling material Stone
+[2023.03.16-16.33.22:595][845]LogMaterial: Display: Missing cached shadermap for Preview:Stone in PCD3D_SM5, Default, SM5 (DDC key hash: 11C0C190ADDFB6E5FD40CE450F0432D030A6575F), compiling. 
+[2023.03.16-16.33.22:620][845]LogMaterial: Display: Missing cached shadermap for Stone in PCD3D_SM5, Default, SM5 (DDC key hash: 9039672164ADF43B887741700CD21CFD4EF67F11), compiling. 
+[2023.03.16-16.33.22:725][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.16-16.33.23:585][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.03.16-16.33.25:694][845]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.03.16-16.33.26:378][845]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000019s (0.689844s overbudget)
+[2023.03.16-16.33.26:412][845]LogSavePackage: Moving output files for package: /Game/MotherEarth/Environmental/Stone
+[2023.03.16-16.33.26:412][845]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/StoneDB04CD504A6F2DA7DB712AB301A87C75.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Environmental/Stone.uasset'
+[2023.03.16-16.33.26:433][845]AssetCheck: New page: Asset Save: Stone
+[2023.03.16-16.33.26:433][845]LogContentValidation: Display: Validating Material /Game/MotherEarth/Environmental/Stone.Stone
+[2023.03.16-16.33.26:435][845]MaterialEditorStats: Base pass shader: 125 instructions
+[2023.03.16-16.33.26:435][845]MaterialEditorStats: Base pass vertex shader: 108 instructions
+[2023.03.16-16.33.26:435][845]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.16-16.33.26:435][845]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.26:435][845]MaterialEditorStats: Shader Count: 16
+[2023.03.16-16.33.30:310][161]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MotherEarth/Environmental/Mountain.Mountain
+[2023.03.16-16.33.30:311][161]LogMaterial: Display: Missing cached shadermap for Preview:Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: 74EA168B55A28C9F1718878BE543B54F6AA4F0CA), compiling. 
+[2023.03.16-16.33.30:328][161]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.33.30:390][161]LogMaterial: Display: Missing cached shadermap for Preview:Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: E17170DB1F5E0322D5860E7D7F73050DC402E8A8), compiling. 
+[2023.03.16-16.33.30:394][161]LogMaterial: Display: Missing cached shadermap for Preview:Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: 1A7A31B8E795D3A7A92D580D23EDA9D4CF135C46), compiling. 
+[2023.03.16-16.33.30:397][161]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2D7D265E371FDECEA9DDDC4197254279315B6D85), compiling. 
+[2023.03.16-16.33.30:444][161]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.33.30:444][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.30:444][161]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.33.30:450][161]LogViewport: Scene viewport resized to 376x469, mode Windowed.
+[2023.03.16-16.33.31:624][249]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.33.31:624][249]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.31:624][249]MaterialEditorStats: Shader Count: 3
+[2023.03.16-16.33.31:734][261]LogMaterial: Display: Missing cached shadermap for Preview:Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: A41747DB45E7CC40E294DDC1D4ED5A0CD1874FF3), compiling. 
+[2023.03.16-16.33.31:737][261]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 96C5C0C9AB1E0269AB12AD91A692E8B6ACCAF4AB), compiling. 
+[2023.03.16-16.33.31:741][261]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.33.31:741][261]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.31:741][261]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.33.31:765][263]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.33.31:765][263]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.31:765][263]MaterialEditorStats: Shader Count: 4
+[2023.03.16-16.33.33:514][434]LogMaterial: Display: Missing cached shadermap for Preview:Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: 2B3146FF84E6971F934A07CB30D1E583D428B057), compiling. 
+[2023.03.16-16.33.33:518][434]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: B961BCE2E7F3CAC19BE8A41A7D5B490111899B06), compiling. 
+[2023.03.16-16.33.33:524][434]MaterialEditorStats: Texture samplers: 0/16
+[2023.03.16-16.33.33:524][434]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.33:524][434]MaterialEditorStats: Shader Count: 0
+[2023.03.16-16.33.34:752][542]MaterialEditorStats: Texture samplers: 2/16
+[2023.03.16-16.33.34:752][542]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.34:752][542]MaterialEditorStats: Shader Count: 2
+[2023.03.16-16.33.35:484][622]LogMaterialEditor: Saving and Compiling material Mountain
+[2023.03.16-16.33.35:914][622]LogMaterial: Display: Missing cached shadermap for Preview:Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: 372E60EEDA31F3A5D07D345D7F61BF3FA70F7B62), compiling. 
+[2023.03.16-16.33.35:938][622]LogMaterial: Display: Missing cached shadermap for Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: E1C358179B08F75E579852BDB3157D0944993395), compiling. 
+[2023.03.16-16.33.36:044][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.03.16-16.33.36:894][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.03.16-16.33.38:979][622]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.03.16-16.33.39:279][622]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004715s (0.310953s overbudget)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: ================================================
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Total job queries 387, among them cache hits 155 (40.05%)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Tracking 160 distinct input hashes that result in 42 distinct outputs (26.25%)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: RAM used: 0.56 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.07%
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Shaders Compiled: 87
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Jobs assigned 160, completed 160 (100.00%)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Average time worker was idle: 32.10 s
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Time job spent in pending queue: average 0.36 s, longest 2.07 s
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Job execution time: average 0.83 s, max 1.77 s
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Job life time (pending + execution): average 1.19 s, max 2.99
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 45.60 s
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Jobs were issued in 154 batches (only local compilation was used), average 1.04 jobs/batch
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Average processing rate: 3.51 jobs/sec
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Effective parallelization: 2.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 1.13 sec, max 1.44 sec, min 0.93 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   12 times, average 1.13 sec, max 1.42 sec, min 1.04 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 0.98 sec, max 1.37 sec, min 0.57 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 0.89 sec, max 1.05 sec, min 0.81 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 0.86 sec, max 1.02 sec, min 0.79 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.91% of total time (compiled   14 times, average 1.13 sec, max 1.44 sec, min 0.93 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.01% of total time (compiled   14 times, average 0.98 sec, max 1.37 sec, min 0.57 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.75% of total time (compiled   12 times, average 1.13 sec, max 1.42 sec, min 1.04 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:                                               FNiagaraShader - 5.78% of total time (compiled   36 times, average 0.17 sec, max 0.42 sec, min 0.05 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.02% of total time (compiled    6 times, average 0.89 sec, max 1.05 sec, min 0.81 sec)
+[2023.03.16-16.33.39:283][622]LogShaderCompilers: Display: ================================================
+[2023.03.16-16.33.39:312][622]LogSavePackage: Moving output files for package: /Game/MotherEarth/Environmental/Mountain
+[2023.03.16-16.33.39:313][622]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/Mountain1C5B8EFA484E47DA7A5C7989F093E2BE.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Environmental/Mountain.uasset'
+[2023.03.16-16.33.39:332][622]AssetCheck: New page: Asset Save: Mountain
+[2023.03.16-16.33.39:332][622]LogContentValidation: Display: Validating Material /Game/MotherEarth/Environmental/Mountain.Mountain
+[2023.03.16-16.33.39:333][622]MaterialEditorStats: Base pass shader: 125 instructions
+[2023.03.16-16.33.39:333][622]MaterialEditorStats: Base pass vertex shader: 108 instructions
+[2023.03.16-16.33.39:333][622]MaterialEditorStats: Texture samplers: 3/16
+[2023.03.16-16.33.39:333][622]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.03.16-16.33.39:333][622]MaterialEditorStats: Shader Count: 16
+[2023.03.16-16.33.41:344][838]LogMaterialEditor: Saving and Compiling material Mountain
+[2023.03.16-16.33.41:787][838]LogMaterial: Display: Missing cached shadermap for Preview:Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: FC1FC8003ED8FA8FBC4B14415789EBA9D9EB122D), compiling. 
+[2023.03.16-16.33.41:813][838]LogMaterial: Display: Missing cached shadermap for Mountain in PCD3D_SM5, Default, SM5 (DDC key hash: 947A9A07D2EC7747B178E9B3924E5E63DFC6D6A2), compiling. 
+[2023.03.16-16.33.41:919][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.03.16-16.33.42:179][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.03.16-16.33.42:284][838]LogSavePackage: Moving output files for package: /Game/MotherEarth/Environmental/Mountain
+[2023.03.16-16.33.42:286][838]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/Mountain252C3D2742613DC97153BC87F24D8239.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/Environmental/Mountain.uasset'
+[2023.03.16-16.33.42:306][838]AssetCheck: New page: Asset Save: Mountain
+[2023.03.16-16.33.42:306][838]LogContentValidation: Display: Validating Material /Game/MotherEarth/Environmental/Mountain.Mountain
+[2023.03.16-16.33.43:883][964]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.16-16.33.43:893][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.16-16.33.43:893][964]PIE: New page: PIE session: generatedTiles (Mar 16, 2023, 4:33:43 AM)
+[2023.03.16-16.33.43:893][964]LogPlayLevel: Creating play world package: /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.33.44:090][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.196513s)
+[2023.03.16-16.33.44:090][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MotherEarth/Levels/generatedTiles.generatedTiles to /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles (0.196806s)
+[2023.03.16-16.33.44:090][964]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.16-16.33.44:091][964]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.33.44:091][964]LogAIModule: Creating AISystem for world generatedTiles
+[2023.03.16-16.33.44:093][964]LogPlayLevel: PIE: World Init took: (0.002640s)
+[2023.03.16-16.33.44:172][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.03.16-16.33.44:174][964]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.03.16-16.33.44:174][964]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.16-16.33.44:174][964]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.16-16.33.44:174][964]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.16-16.33.44:174][964]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.16-16.33.44:174][964]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.16-16.33.44:174][964]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.16-16.33.44:174][964]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.16-16.33.44:174][964]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.16-16.33.44:174][964]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.16-16.33.44:174][964]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.16-16.33.44:174][964]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.16-16.33.44:177][964]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.16-16.33.44:212][964]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.03.16-16.33.44:212][964]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.16-16.33.44:212][964]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.16-16.33.44:212][964]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.16-16.33.44:213][964]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.03.16-16.33.44:213][964]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.03.16-16.33.44:214][964]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.03.16-16.33.44:214][964]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.03.16-16.33.44:214][964]LogInit: FAudioDevice initialized.
+[2023.03.16-16.33.44:214][964]LogAudio: Display: Audio Device (ID: 21) registered with world 'generatedTiles'.
+[2023.03.16-16.33.44:228][964]LogLoad: Game class is 'PlanetGravity_GameMode__C'
+[2023.03.16-16.33.44:257][964]LogWorld: Bringing World /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles up for play (max tick rate 0) at 2023.03.16-10.33.44
+[2023.03.16-16.33.44:262][964]LogWorld: Bringing up level for play took: 0.033673
+[2023.03.16-16.33.44:264][964]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.03.16-16.33.57:937][964]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.33.58:264][964]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.33.58:590][964]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.33.58:913][964]PIE: Server logged in
+[2023.03.16-16.33.58:914][964]PIE: Play in editor total start time 15.02 seconds.
+[2023.03.16-16.34.00:551][965]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626', movement 'Walking'
+[2023.03.16-16.34.01:534][975]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.34.01:534][975]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.34.01:534][975]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.34.01:534][975]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.34.01:534][975]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.34.01:534][975]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.34.13:137][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.34.13:137][ 95]LogWorld: BeginTearingDown for /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.34.13:140][ 95]LogWorld: UWorld::CleanupWorld for generatedTiles, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.34.13:162][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.34.13:184][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.16-16.34.13:206][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.34.13:367][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.34.13:383][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.03.16-16.34.13:386][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.03.16-16.34.13:459][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2023.03.16-16.34.13:532][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.03.16-16.35.03:099][326]BlueprintLog: New page: Compile GravityPlayerCharacter_BP
+[2023.03.16-16.35.03:268][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.03.16-16.35.04:072][396]LogSavePackage: Moving output files for package: /Game/MotherEarth/GravityPlayerCharacter_BP
+[2023.03.16-16.35.04:072][396]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/GravityPlayerCharacter_BPE782ACB740FB7A1C732FA28E7D2EFE82.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/MotherEarth/GravityPlayerCharacter_BP.uasset'
+[2023.03.16-16.35.04:094][396]AssetCheck: New page: Asset Save: GravityPlayerCharacter_BP
+[2023.03.16-16.35.04:094][396]LogContentValidation: Display: Validating Blueprint /Game/MotherEarth/GravityPlayerCharacter_BP.GravityPlayerCharacter_BP
+[2023.03.16-16.35.05:727][544]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.16-16.35.05:737][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.16-16.35.05:737][544]PIE: New page: PIE session: generatedTiles (Mar 16, 2023, 4:35:05 AM)
+[2023.03.16-16.35.05:738][544]LogPlayLevel: Creating play world package: /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.35.05:936][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.198181s)
+[2023.03.16-16.35.05:936][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MotherEarth/Levels/generatedTiles.generatedTiles to /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles (0.198440s)
+[2023.03.16-16.35.05:936][544]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.03.16-16.35.05:936][544]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.16-16.35.05:936][544]LogAIModule: Creating AISystem for world generatedTiles
+[2023.03.16-16.35.05:938][544]LogPlayLevel: PIE: World Init took: (0.002650s)
+[2023.03.16-16.35.06:016][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.03.16-16.35.06:018][544]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.03.16-16.35.06:018][544]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.16-16.35.06:018][544]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.16-16.35.06:018][544]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.16-16.35.06:018][544]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.16-16.35.06:018][544]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.16-16.35.06:018][544]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.16-16.35.06:018][544]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.16-16.35.06:018][544]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.16-16.35.06:019][544]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.16-16.35.06:019][544]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.16-16.35.06:019][544]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.16-16.35.06:021][544]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.16-16.35.06:056][544]LogAudioMixer: Display: Using Audio Hardware Device Speaker/Headphone (Realtek(R) Audio)
+[2023.03.16-16.35.06:056][544]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.16-16.35.06:056][544]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.16-16.35.06:056][544]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.16-16.35.06:056][544]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.03.16-16.35.06:056][544]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.03.16-16.35.06:058][544]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.03.16-16.35.06:058][544]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.03.16-16.35.06:058][544]LogInit: FAudioDevice initialized.
+[2023.03.16-16.35.06:058][544]LogAudio: Display: Audio Device (ID: 22) registered with world 'generatedTiles'.
+[2023.03.16-16.35.06:071][544]LogLoad: Game class is 'PlanetGravity_GameMode__C'
+[2023.03.16-16.35.06:100][544]LogWorld: Bringing World /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles.generatedTiles up for play (max tick rate 0) at 2023.03.16-10.35.06
+[2023.03.16-16.35.06:105][544]LogWorld: Bringing up level for play took: 0.032575
+[2023.03.16-16.35.06:106][544]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.03.16-16.35.19:068][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.35.19:381][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.35.19:693][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.35.20:007][544]PIE: Server logged in
+[2023.03.16-16.35.20:007][544]PIE: Play in editor total start time 14.271 seconds.
+[2023.03.16-16.35.21:642][545]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626', movement 'Walking'
+[2023.03.16-16.35.22:608][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.22:608][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.22:608][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.22:608][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.22:608][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.22:608][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.31:806][760]LogBlueprintUserMessages: [BP_treeSpell_C_0] treeSpellMade
+[2023.03.16-16.35.36:551][866]LogBlueprintUserMessages: [BP_treeSpell_C_1] treeSpellMade
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.37:591][888]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.39:211][924]LogBlueprintUserMessages: [BP_treeSpell_C_2] treeSpellMade
+[2023.03.16-16.35.41:534][974]LogBlueprintUserMessages: [BP_treeSpell_C_3] treeSpellMade
+[2023.03.16-16.35.44:520][ 37]LogBlueprintUserMessages: [BP_treeSpell_C_4] treeSpellMade
+[2023.03.16-16.35.46:374][ 77]LogBlueprintUserMessages: [BP_treeSpell_C_5] treeSpellMade
+[2023.03.16-16.35.49:388][142]LogBlueprintUserMessages: [BP_treeSpell_C_6] treeSpellMade
+[2023.03.16-16.35.51:490][188]LogBlueprintUserMessages: [BP_treeSpell_C_7] treeSpellMade
+[2023.03.16-16.35.55:210][267]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.55:210][267]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.55:210][267]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PathBuffer' of length 3 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.35.59:711][357]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.36.02:354][413]LogBlueprintUserMessages: [BP_treeSpell_C_8] treeSpellMade
+[2023.03.16-16.36.13:750][659]LogBlueprintUserMessages: [BP_treeSpell_C_9] treeSpellMade
+[2023.03.16-16.36.16:364][708]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/MotherEarth/AI/Minion/GravityMinionCharacter_BP.GravityMinionCharacter_BP_C:ExecuteUbergraph_GravityMinionCharacter_BP'!
+[2023.03.16-16.36.17:025][721]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Minion/MinionAIControllerPlanet_BP.MinionAIControllerPlanet_BP_C'!
+[2023.03.16-16.36.25:344][897]LogBlueprintUserMessages: [BP_treeSpell_C_10] treeSpellMade
+[2023.03.16-16.36.37:328][146]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.063103 > MaxSimulationTimeStep (0.050) for 'GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626', movement 'Walking'
+[2023.03.16-16.36.37:952][158]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PathBuffer' of length 0 in '/Game/MotherEarth/AI/Enemy/EnemyAIControllerPlanet_BP.EnemyAIControllerPlanet_BP_C'!
+[2023.03.16-16.36.43:517][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.36.43:517][274]LogWorld: BeginTearingDown for /Game/MotherEarth/Levels/UEDPIE_0_generatedTiles
+[2023.03.16-16.36.43:521][274]LogWorld: UWorld::CleanupWorld for generatedTiles, bSessionEnded=true, bCleanupResources=true
+[2023.03.16-16.36.43:543][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.36.43:603][274]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.16-16.36.43:623][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.16-16.36.43:810][274]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.16-16.36.43:810][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.03.16-16.36.43:811][274]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.03.16-16.36.43:815][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.16-16.36.43:883][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.03.16-16.36.43:959][275]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.03.16-16.36.47:270][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.03.16-16.36.47:352][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/3/YM/FSH0E90L2EIAF4HE6S7JLM
+[2023.03.16-16.36.47:353][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/FSH0E90L2EIAF4HE6S7JLMA5232FCF437FCC9697D71FA509F82DFD.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/3/YM/FSH0E90L2EIAF4HE6S7JLM.uasset'
+[2023.03.16-16.36.47:432][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/3/E1/4JF4RE8NYHGCMBKM7RM71S
+[2023.03.16-16.36.47:432][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/4JF4RE8NYHGCMBKM7RM71S511B113B4F2CD9C4A82DBE8483589894.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/3/E1/4JF4RE8NYHGCMBKM7RM71S.uasset'
+[2023.03.16-16.36.47:434][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/9/4E/TAV691RR1QWJYHXHE43EQI
+[2023.03.16-16.36.47:435][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/TAV691RR1QWJYHXHE43EQI41074B0543B0D7BCAAFDF095897C70EA.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/9/4E/TAV691RR1QWJYHXHE43EQI.uasset'
+[2023.03.16-16.36.47:438][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/D/49/DGAGO6VJY2JRPF5Z2YRZ55
+[2023.03.16-16.36.47:438][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/DGAGO6VJY2JRPF5Z2YRZ559BE886F94977133880669DA0552D6710.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/D/49/DGAGO6VJY2JRPF5Z2YRZ55.uasset'
+[2023.03.16-16.36.47:441][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/A/9Z/II4RYOQKXTGR5CAURRI3WW
+[2023.03.16-16.36.47:442][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/II4RYOQKXTGR5CAURRI3WWD603F6D44FE4CDABC9ABE0BB8D592276.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/A/9Z/II4RYOQKXTGR5CAURRI3WW.uasset'
+[2023.03.16-16.36.47:444][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/5/HE/TFRS4WFYSDR7WAPRRIIPFR
+[2023.03.16-16.36.47:446][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/TFRS4WFYSDR7WAPRRIIPFR956DC91344F6BF5DC3AF06BEDE46D259.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/5/HE/TFRS4WFYSDR7WAPRRIIPFR.uasset'
+[2023.03.16-16.36.47:449][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/4/FC/DF7Q4WRPH2NBS1DLJA820C
+[2023.03.16-16.36.47:449][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/DF7Q4WRPH2NBS1DLJA820C00536E16460132BE0FACA0AAABD8BF1C.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/4/FC/DF7Q4WRPH2NBS1DLJA820C.uasset'
+[2023.03.16-16.36.47:456][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/3/L4/RG4PPZZJV3ZGE3KLKPPYHV
+[2023.03.16-16.36.47:456][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/RG4PPZZJV3ZGE3KLKPPYHVE5D79D4640144911B8C675BA717B3084.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/3/L4/RG4PPZZJV3ZGE3KLKPPYHV.uasset'
+[2023.03.16-16.36.47:459][573]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MotherEarth/Levels/generatedTiles/5/83/H4S5C4IJXLEH3CT98W97VZ
+[2023.03.16-16.36.47:460][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/H4S5C4IJXLEH3CT98W97VZ7B36D69F4A9DC8CECB5BB689DFAA1A59.tmp' to '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Content/__ExternalActors__/MotherEarth/Levels/generatedTiles/5/83/H4S5C4IJXLEH3CT98W97VZ.uasset'
+[2023.03.16-16.36.47:511][573]LogSavePackage: Moving output files for package: /NinjaCharacter/NinjaCharacter/Blueprints/NinjaPlayerCharacter_BP
+[2023.03.16-16.36.47:512][573]LogSavePackage: Moving '../../../../../../squis/Documents/SchoolStuff/Spring2023/GameDev/Repo/TradGameDevCpp/UnrealTestCPPProject/TestProject/Saved/NinjaPlayerCharacter_BPBFEFEA434B66EF0B1C9A4DA1B70704A9.tmp' to '../../Plugins/Marketplace/NinjaCharacter/Content/NinjaCharacter/Blueprints/NinjaPlayerCharacter_BP.uasset'
+[2023.03.16-16.36.47:538][573]AssetCheck: New page: Asset Save: multiple assets
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating Blueprint /NinjaCharacter/NinjaCharacter/Blueprints/NinjaPlayerCharacter_BP.NinjaPlayerCharacter_BP
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating GravityBounds_BP_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.GravityBounds_BP_C_UAID_F4390944AE22656A01_2106669879
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating GravityMinionCharacter_BP_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.GravityMinionCharacter_BP_C_UAID_105BADC80556E16F01_1567463026
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating GravityMinionCharacter_BP_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.GravityMinionCharacter_BP_C_UAID_105BADC80556E16F01_1545879982
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating GravityMinionCharacter_BP_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.GravityMinionCharacter_BP_C_UAID_105BADC80556E16F01_1569984063
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating GravityEnemyCharacter_BP_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2140580625
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating GravityEnemyCharacter_BP_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2125948624
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating GravityEnemyCharacter_BP_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.GravityEnemyCharacter_BP_C_UAID_105BADC80556DF6F01_2146669626
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating BP_StoneHengeBase_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.BP_StoneHengeBase_C_UAID_105BADC80556DF6F01_1989528623
+[2023.03.16-16.36.47:538][573]LogContentValidation: Display: Validating BP_StoneHengeBase_C /Game/MotherEarth/Levels/generatedTiles.generatedTiles:PersistentLevel.BP_StoneHengeBase_C_UAID_105BADC80556DF6F01_1577380623
