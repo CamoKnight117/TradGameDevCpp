@@ -114,3 +114,4 @@ UnrealTestCPPProject/TestProject/Saved/Config/CrashReportClient/*
 *.json
 UnrealTestCPPProject/TestProject/Saved/*
 UnrealTestCPPProject/TestProject/Intermediate/CachedAssetRegistry.bin
+UnrealTestCPPProject/TestProject.zip
