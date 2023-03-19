@@ -28,7 +28,7 @@ void AWorldTileSpawner::BeginPlay()
 		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i) + "_'";
 
 		UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, *currentFName, NULL, LOAD_None, NULL);
-		meshToUse->ComplexCollisionMesh = meshToUse;
+		//meshToUse->ComplexCollisionMesh = meshToUse;
 		if (meshToUse != nullptr)
 		{
 			//UE_LOG(LogTemp, Warning, TEXT("Mesh non null"));
@@ -56,7 +56,7 @@ void AWorldTileSpawner::BeginPlay()
 		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i) + "_'";
 
 		UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, *currentFName, NULL, LOAD_None, NULL);
-		meshToUse->ComplexCollisionMesh = meshToUse;
+		//meshToUse->ComplexCollisionMesh = meshToUse;
 		if (meshToUse != nullptr)
 		{
 			//UE_LOG(LogTemp, Warning, TEXT("Mesh non null"));
