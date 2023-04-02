@@ -14,9 +14,9 @@ AWorldTileSpawner::AWorldTileSpawner()
 void AWorldTileSpawner::BeginPlay()
 {
 	Super::BeginPlay();	
-	int totalLandTiles = 1344;
-	int totalWaterTiles = 1076;
-	for (int i = 1; i < totalLandTiles; i++)
+	int totalLandTiles = 1341;
+	int totalWaterTiles = 1079;
+	for (int i = 1; i <= totalLandTiles; i++)
 	{
 		AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(tileBlueprintToSpawn, GetActorTransform());
 		newActor->canGrowGrass = true;
@@ -47,7 +47,7 @@ void AWorldTileSpawner::BeginPlay()
 		}
 	}
 	
-	for (int i = 1; i < totalWaterTiles; i++)
+	for (int i = 1; i <= totalWaterTiles; i++)
 	{
 		AActorCppParent* newActor = GetWorld()->SpawnActor<AActorCppParent>(waterBlueprintToSpawn, GetActorTransform());
 		//Reference string format: StaticMesh'/Game/MotherEarth/TilesByType/Water/waterTile__1000_.waterTile__1000_'
