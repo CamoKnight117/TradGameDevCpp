@@ -23,15 +23,16 @@ void AWorldTileSpawner::BeginPlay()
 		newActor->canGrowTrees = true;
 		//Reference string format: StaticMesh'/Game/MotherEarth/Tiles/LandTile/LandTile_Landtile1.LandTile_Landtile1'
 
-		FString baseString = "StaticMesh'/Game/MotherEarth/Tiles/LandTile/LandTile_Landtile";	
+		//FString baseString = "StaticMesh'/Game/MotherEarth/Tiles/LandTile/LandTile_Landtile";	
+		FString baseString = "StaticMesh'/Game/MotherEarth/Tiles/LandTile/LandTile_Landtile";
 		FString appendedString = ".LandTile_LandTile";
-		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i);
+		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i) + "'";
 
 		UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, *currentFName, NULL, LOAD_None, NULL);
 		//meshToUse->ComplexCollisionMesh = meshToUse;
 		if (meshToUse != nullptr)
 		{
-			//UE_LOG(LogTemp, Warning, TEXT("Mesh non null"));
+			UE_LOG(LogTemp, Warning, TEXT("Mesh non null"));
 			newActor->runtimeSetMesh = meshToUse;
 			if ((newActor->runtimeSetMesh) == nullptr)
 			{
@@ -53,7 +54,7 @@ void AWorldTileSpawner::BeginPlay()
 		//Reference string format: StaticMesh'/Game/MotherEarth/Tiles/WaterTile/WaterTile_Watertile1.WaterTile_WaterTile1'
 		FString baseString = "StaticMesh'/Game/MotherEarth/Tiles/WaterTile/WaterTile_Watertile";
 		FString appendedString = ".WaterTile_WaterTile";
-		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i);
+		FString currentFName = baseString + FString::FromInt(i) + appendedString + FString::FromInt(i) + "'";
 
 		UStaticMesh* meshToUse = LoadObject<UStaticMesh>(NULL, *currentFName, NULL, LOAD_None, NULL);
 		//meshToUse->ComplexCollisionMesh = meshToUse;
