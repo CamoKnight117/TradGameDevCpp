@@ -14,7 +14,7 @@ AWorldTileSpawner::AWorldTileSpawner()
 void AWorldTileSpawner::BeginPlay()
 {
 	Super::BeginPlay();	
-	int totalLandTiles = 1349;
+	int totalLandTiles = 1348;
 	int totalWaterTiles = 1071;
 	for (int i = 1; i <= totalLandTiles; i++)
 	{
